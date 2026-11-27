@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Aarthy 👋
 
-<!--
-**aarthy-data-analyst/aarthy-data-analyst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Aspiring Data Analyst | BCA Graduate
 
-Here are some ideas to get you started:
+I'm passionate about transforming raw data into meaningful insights and supporting data-driven business decisions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🎯 About Me
+- Interested in Data Analytics and Business Intelligence.
+- Practising real-world data cleaning and analysis.
+- Building projects using Python, SQL, Excel and Power BI.
+- Continuously improving my analytical and problem-solving skills.
+
+### 🛠️ Technical Skills
+- **Programming:** Python
+- **Libraries:** Pandas, NumPy
+- **Database:** SQL, MySQL
+- **Visualization:** Matplotlib, Seaborn, Power BI
+- **Spreadsheet:** Microsoft Excel
+- **Tools:** Jupyter Notebook, VS Code, GitHub
+
+- ### 📚 Currently Learning
+- Advanced SQL
+- Power BI Dashboard Development
+- Exploratory Data Analysis
+- Statistical Analysis
