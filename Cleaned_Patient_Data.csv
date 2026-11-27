@@ -1,0 +1,501 @@
+Patient_ID,Patient_Name,Age,Gender,Blood_Group,Department,Doctor,Admission_Date,Discharge_Date,Diagnosis,Treatment,Room_Type,Length_of_Stay,Total_Bill,Insurance,Payment_Mode,Patient_Rating,Readmission,Emergency
+P0001,Vijay Sharma,69.0,Female,O-,Gastroenterology,Dr. Shalini Devi,15-12-2025,17-12-2025,Ulcer,Medication,Private,2.0,27734.0,Yes,Insurance,3.9,No,No
+P0002,Deepa Krishnan,19.0,Male,B+,Dermatology,Dr. Pooja Sharma,11-07-2025,25-07-2025,Acne,Laser Treatment,Semi Private,14.0,53685.0,Yes,Insurance,3.3,Yes,No
+P0003,Vignesh Reddy,79.0,Female,B-,Gastroenterology,Dr. Manoj Iyer,24-06-2025,29-06-2025,Food Poisoning,Endoscopy,General Ward,5.0,21267.0,No,UPI,4.3,No,No
+P0004,Swathi Kumar,47.0,Female,A-,Pediatrics,Dr. Deepa Krishnan,06-12-2025,08-12-2025,Asthma,Nebulization,Private,2.0,27748.0,No,UPI,4.6,No,No
+P0005,Nisha Raj,47.0,Male,Ab+,Pediatrics,Dr. Deepa Krishnan,11-06-2025,14-06-2025,Fever,Observation,ICU,3.0,49629.0,Yes,Insurance,3.9,No,Yes
+P0006,Meena Singh,47.0,Male,B+,Pediatrics,Dr. Nisha Menon,28-10-2025,29-10-2025,Fever,Medication,ICU,1.0,23463.0,Yes,Insurance,4.0,No,No
+P0007,Shalini Iyer,47.0,Male,B-,Pediatrics,Dr. Deepa Krishnan,19-08-2025,24-08-2025,Respiratory Infection,IV Therapy,General Ward,5.0,74392.0,Yes,Card,4.0,No,Yes
+P0008,Ramesh Balan,20.0,Female,B-,Dermatology,Dr. Swathi Nair,14-09-2025,20-09-2025,Acne,Skin Therapy,General Ward,6.0,25362.0,Yes,Insurance,3.4,No,No
+P0009,Harini Menon,47.0,Female,B-,Pediatrics,Dr. Kavya Raj,10-08-2025,11-08-2025,Asthma,Medication,Semi Private,1.0,10878.0,No,Cash,3.8,Yes,No
+P0010,Rahul Kumar,61.0,Male,A+,General Medicine,Dr. Rahul Kumar,06-12-2025,15-12-2025,Fever,Medication,Semi Private,9.0,45521.0,Yes,Insurance,3.7,No,No
+P0011,Pooja Kumar,44.0,Female,A+,Gastroenterology,Dr. Vijay Kumar,17-05-2025,21-05-2025,Food Poisoning,Diet Therapy,Private,4.0,33663.0,No,Card,4.2,No,No
+P0012,  Arun Kumar ,47.0,Male,Ab-,Cardiology,Dr. Priya Raj,22-03-2025,24-03-2025,Hypertension,Cardiac Therapy,ICU,2.0,43854.0,Yes,Insurance,2.9,No,No
+P0013,Sathish Kumar,47.0,Male,B-,Gastroenterology,Dr. Shalini Devi,22-07-2025,25-07-2025,Ulcer,Diet Therapy,General Ward,3.0,20789.0,Yes,Insurance,5.0,Yes,No
+P0014,Vignesh Kumar,53.0,Female,O-,Orthopedics,Dr. Ajay Sharma,12-12-2025,16-12-2025,Arthritis,Fracture Treatment,General Ward,4.0,23111.0,Yes,Insurance,5.0,Yes,No
+P0015,Prakash Raj,67.0,Male,O-,Cardiology,Dr. Priya Raj,31-05-2025,04-06-2025,Arrhythmia,Medication,Private,4.0,41262.0,No,Card,4.0,No,No
+P0016,Prakash Singh,36.0,Female,Ab-,Cardiology,Dr. Priya Raj,31-10-2025,08-11-2025,Chest Pain,Cardiac Therapy,Private,8.0,69197.0,No,UPI,4.3,Yes,No
+UNKNOWN,Vijay Sharma,47.0,Female,O-,Pediatrics,Dr. Nisha Menon,04-12-2025,08-12-2025,Respiratory Infection,Medication,Semi Private,4.0,29263.0,Yes,Insurance,3.3,No,No
+P0018,Priya Iyer,39.0,Female,A+,Orthopedics,Dr. Ajay Sharma,26-08-2025,31-08-2025,Joint Pain,Surgery,ICU,5.0,81754.0,No,UPI,4.6,No,No
+P0019,Vignesh Iyer,21.0,Female,Ab+,Orthopedics,Dr. Ramesh Balan,04-02-2025,11-02-2025,Arthritis,Surgery,General Ward,7.0,32939.0,No,Cash,4.5,No,No
+P0020,Keerthana Krishnan,80.0,Female,O+,General Medicine,Dr. Anitha Devi,10-09-2025,13-09-2025,Fever,IV Therapy,Private,3.0,26827.0,Yes,Insurance,3.7,No,Yes
+P0021,Kavya Reddy,64.0,Female,B+,ENT,Dr. Harini Nair,08-12-2025,11-12-2025,Sinusitis,Observation,General Ward,3.0,23629.0,No,Cash,4.3,No,No
+P0022,Dinesh Menon,53.0,Female,A-,Cardiology,Dr. Suresh Iyer,22-06-2025,24-06-2025,Chest Pain,Angioplasty,General Ward,2.0,30773.0,Yes,UPI,5.0,No,Yes
+P0023,Meena Iyer,39.0,Female,B-,Dermatology,Dr. Rahul Kumar,10-11-2025,18-11-2025,Acne,Minor Procedure,General Ward,8.0,24677.0,No,Card,2.5,No,Yes
+P0024,Ajay Kumar,64.0,Female,O+,Dermatology,Dr. Pooja Sharma,21-12-2025,26-12-2025,Psoriasis,Laser Treatment,Private,5.0,37465.0,Yes,Insurance,4.3,Yes,Yes
+P0025,Suresh Nair,47.0,Male,O+,Pediatrics,Dr. Nisha Menon,09-05-2025,11-05-2025,Dehydration,Nebulization,General Ward,2.0,17405.0,Yes,Insurance,4.2,No,No
+P0026,Rahul Sharma,46.0,Male,Ab-,Cardiology,Dr. Priya Raj,08-08-2025,09-08-2025,Hypertension,ECG Monitoring,General Ward,1.0,31257.0,No,Cash,5.0,Yes,No
+P0027,Nisha Singh,51.0,Female,B-,Neurology,Dr. Anitha Devi,29-06-2025,02-07-2025,Diabetes,General Treatment,Semi Private,3.0,19089.0,Yes,Insurance,5.0,No,No
+P0028,Suresh Menon,29.0,Male,A+,ENT,Dr. Dinesh Raj,27-06-2025,02-07-2025,Hearing Problem,Minor Surgery,General Ward,5.0,21552.0,Yes,Insurance,4.3,No,Yes
+P0029,Ajay Krishnan,63.0,Male,B-,General Medicine,Dr. Anitha Devi,10-09-2025,11-09-2025,Diabetes,Observation,Private,1.0,21467.0,Yes,Insurance,3.2,No,No
+P0030,Karthik Sharma,38.0,Female,A+,General Medicine,Dr. Rahul Kumar,06-09-2025,10-09-2025,Hypertension,General Treatment,Semi Private,4.0,22767.0,No,Cash,5.0,No,No
+P0031,Manoj Das,72.0,Male,A+,General Medicine,Dr. Prakash Menon,13-01-2025,19-01-2025,Diabetes,IV Therapy,General Ward,6.0,23717.0,No,Card,2.2,Yes,No
+P0032,Vijay Sharma,69.0,Male,O+,Dermatology,Dr. Swathi Nair,05-12-2025,09-12-2025,Acne,Medication,General Ward,4.0,19966.0,No,UPI,3.9,No,No
+P0033,Anitha Reddy,22.0,Female,Ab+,Dermatology,Dr. Keerthana Raj,12-06-2025,21-06-2025,Skin Allergy,Laser Treatment,General Ward,9.0,28501.0,No,Cash,4.5,No,Yes
+P0034,Rahul Krishnan,47.0,Male,B-,Pediatrics,Dr. Deepa Krishnan,05-12-2025,10-12-2025,Dehydration,IV Therapy,Private,5.0,34865.0,No,UPI,5.0,No,No
+P0035,Arun Devi,36.0,Male,B-,Gastroenterology,Dr. Vijay Kumar,08-02-2025,11-02-2025,Gastritis,Medication,General Ward,3.0,21249.0,Yes,Insurance,4.2,No,Yes
+P0036,  Vijay Nair ,55.0,Male,B+,Cardiology,Dr. Arun Kumar,27-04-2025,08-05-2025,Arrhythmia,ECG Monitoring,General Ward,11.0,45116.0,Yes,Insurance,3.4,No,Yes
+P0037,Kavya Singh,66.0,Female,B-,Gastroenterology,Dr. Manoj Iyer,14-01-2025,16-01-2025,Food Poisoning,Endoscopy,ICU,2.0,43053.0,Yes,Insurance,4.3,No,No
+P0038,Prakash Krishnan,77.0,Male,Ab+,Neurology,Dr. Karthik Raj,27-06-2025,29-06-2025,Neuropathy,MRI Monitoring,General Ward,2.0,23435.0,No,Card,4.2,No,No
+P0039,Ramesh Kumar,47.0,Male,Ab+,Pediatrics,Dr. Deepa Krishnan,23-03-2025,26-03-2025,Respiratory Infection,Medication,Semi Private,3.0,25736.0,Yes,Insurance,4.9,No,No
+P0040,Anitha Menon,47.0,Male,Ab+,Pediatrics,Dr. Nisha Menon,08-04-2025,09-04-2025,Fever,Nebulization,General Ward,1.0,8204.0,Yes,Insurance,3.6,No,No
+P0041,Divya Kumar,47.0,Male,O-,Pediatrics,Dr. Deepa Krishnan,21-07-2025,29-07-2025,Dehydration,IV Therapy,General Ward,8.0,27645.0,Yes,Insurance,3.4,Yes,No
+P0042,Suresh Das,71.0,Male,A+,Neurology,Dr. Vignesh Kumar,28-04-2025,06-05-2025,Epilepsy,Neurological Therapy,General Ward,8.0,39576.0,Yes,Insurance,3.3,No,No
+P0043,Priya Sharma,68.0,Male,Ab-,Neurology,Dr. Karthik Raj,13-04-2025,14-04-2025,Neuropathy,Neurological Therapy,General Ward,1.0,23749.0,No,Card,3.1,No,No
+P0044,Priya Nair,47.0,Male,A-,Orthopedics,Dr. Ramesh Balan,12-10-2025,13-10-2025,Arthritis,Medication,General Ward,1.0,30449.0,No,Cash,2.5,No,No
+P0045,Keerthana Balan,40.0,Male,B+,Gastroenterology,Dr. Manoj Iyer,02-07-2025,07-07-2025,Gastritis,Endoscopy,Semi Private,5.0,33031.0,No,Cash,4.0,No,Yes
+P0046,Manoj Das,47.0,Male,A-,Pediatrics,Dr. Kavya Raj,01-01-2025,05-01-2025,Respiratory Infection,Medication,General Ward,4.0,15793.0,Yes,Insurance,4.7,No,No
+P0047,Shalini Nair,80.0,Female,A-,Orthopedics,Dr. Ajay Sharma,17-02-2025,18-02-2025,Arthritis,Fracture Treatment,General Ward,1.0,25047.0,No,Cash,4.0,No,Yes
+P0048,Manoj Raj,73.0,Female,Ab-,Orthopedics,Dr. Ajay Sharma,07-01-2025,13-01-2025,Back Pain,Medication,Private,6.0,52506.0,Yes,Insurance,4.2,Yes,No
+P0049,Manoj Raj,56.0,Male,B-,General Medicine,Dr. Rahul Kumar,30-09-2025,02-10-2025,Fever,Observation,General Ward,2.0,15232.0,No,Cash,4.8,No,No
+P0050,Manoj Nair,59.0,Male,B-,General Medicine,Dr. Prakash Menon,11-04-2025,14-04-2025,Diabetes,Observation,Semi Private,3.0,18361.0,Yes,Insurance,4.0,No,No
+P0051,Sathish Sharma,21.0,Male,Ab-,ENT,Dr. Harini Nair,16-12-2025,18-12-2025,Sinusitis,Minor Surgery,General Ward,2.0,14835.0,No,UPI,4.1,No,No
+P0052,Harini Sharma,47.0,Male,B-,Cardiology,Dr. Arun Kumar,01-12-2025,05-12-2025,Arrhythmia,Medication,Semi Private,4.0,38116.0,No,Insurance,4.7,No,No
+P0053,Kavya Iyer,47.0,Male,A-,Dermatology,Dr. Keerthana Raj,07-02-2025,12-02-2025,Skin Allergy,Minor Procedure,General Ward,5.0,21488.0,Yes,Insurance,3.9,No,Yes
+P0054,Prakash Iyer,47.0,Female,B-,Pediatrics,Dr. Deepa Krishnan,30-09-2025,01-10-2025,Asthma,Medication,Semi Private,1.0,19430.0,No,UPI,3.7,No,No
+P0055,Karthik Iyer,52.0,Male,Ab+,General Medicine,Dr. Rahul Kumar,01-01-2025,07-01-2025,Infection,Observation,Semi Private,6.0,32151.0,No,UPI,3.6,No,No
+P0056,Anitha Kumar,47.0,Male,O+,Pediatrics,Dr. Nisha Menon,30-03-2025,05-04-2025,Fever,Medication,Semi Private,6.0,32143.0,Yes,Insurance,4.4,No,No
+P0057,Pooja Kumar,70.0,Female,Ab-,Neurology,Dr. Vignesh Kumar,14-04-2025,12-04-2025,Epilepsy,MRI Monitoring,Semi Private,2.0,29789.0,No,UPI,4.7,No,No
+P0058,Harini Nair,47.0,Male,O+,Pediatrics,Dr. Nisha Menon,16-10-2025,17-10-2025,Dehydration,Medication,Semi Private,1.0,13812.0,No,Cash,4.8,Yes,No
+P0059,  Sathish Das ,47.0,Male,B-,Cardiology,Dr. Nisha Menon,18-09-2025,22-09-2025,Asthma,Nebulization,Semi Private,4.0,22556.0,No,UPI,5.0,No,Yes
+P0060,Keerthana Krishnan,64.0,Male,O+,Gastroenterology,Dr. Shalini Devi,12-12-2025,23-12-2025,Food Poisoning,Diet Therapy,General Ward,11.0,41180.0,Yes,Cash,5.0,No,No
+P0061,Harini Das,54.0,Male,A+,ENT,Dr. Harini Nair,24-11-2025,29-11-2025,Sinusitis,Medication,Private,5.0,41024.0,Yes,Insurance,4.1,No,Yes
+P0062,Vignesh Iyer,74.0,Male,A-,Gastroenterology,Dr. Manoj Iyer,01-01-2025,09-01-2025,Gastritis,Endoscopy,Semi Private,8.0,41631.0,No,UPI,4.1,No,No
+P0063,Shalini Krishnan,55.0,Male,B-,Orthopedics,Dr. Priya Raj,29-07-2025,02-08-2025,Hypertension,Cardiac Therapy,ICU,4.0,73783.0,Yes,Insurance,3.2,No,No
+P0064,Prakash Sharma,39.0,Female,Ab-,Orthopedics,Dr. Ajay Sharma,03-06-2025,04-06-2025,Fracture,Fracture Treatment,Private,1.0,29263.0,No,Cash,3.9,No,No
+P0065,Prakash Raj,47.0,Female,Ab-,Pediatrics,Dr. Nisha Menon,13-10-2025,12-10-2025,Respiratory Infection,Observation,Semi Private,8.0,32368.0,No,UPI,5.0,No,No
+P0066,Dinesh Reddy,20.0,Female,O-,Gastroenterology,Dr. Vijay Kumar,15-10-2025,17-10-2025,Liver Disorder,Medication,Private,2.0,28305.0,Yes,Insurance,5.0,No,No
+P0067,Meena Raj,76.0,Male,O-,Orthopedics,Dr. Divya Nair,12-09-2025,13-09-2025,Joint Pain,Fracture Treatment,General Ward,1.0,18110.0,Yes,Insurance,4.1,No,No
+P0068,Kavya Reddy,54.0,Male,B-,General Medicine,Dr. Prakash Menon,01-07-2025,03-07-2025,Infection,General Treatment,General Ward,2.0,11543.0,Yes,Insurance,4.7,No,No
+P0069,Vignesh Raj,19.0,Male,B-,General Medicine,Dr. Rahul Kumar,30-10-2025,04-11-2025,Hypertension,Observation,General Ward,5.0,17409.0,Yes,Insurance,4.9,No,Yes
+P0070,Ajay Kumar,47.0,Female,A+,Neurology,Dr. Meena Devi,30-04-2025,13-05-2025,Migraine,Medication,Semi Private,13.0,61431.0,Yes,Insurance,3.5,No,Yes
+P0071,Prakash Iyer,21.0,Male,Ab-,Orthopedics,Dr. Divya Nair,03-06-2025,07-06-2025,Joint Pain,Medication,General Ward,4.0,29196.0,Yes,Insurance,2.8,Yes,Yes
+P0072,Kavya Kumar,74.0,Male,Ab+,Orthopedics,Dr. Divya Nair,14-10-2025,22-10-2025,Arthritis,Physiotherapy,Semi Private,8.0,44736.0,Yes,Insurance,4.4,Yes,Yes
+P0073,Prakash Das,47.0,Male,O-,Orthopedics,Dr. Ajay Sharma,03-11-2025,04-11-2025,Arthritis,Medication,Private,1.0,22624.0,Yes,Insurance,4.0,No,No
+P0074,Manoj Das,73.0,Female,A+,Dermatology,Dr. Keerthana Raj,16-10-2025,18-10-2025,Eczema,Medication,Semi Private,2.0,13662.0,No,Cash,3.0,No,No
+P0075,Prakash Kumar,78.0,Female,A+,Cardiology,Dr. Suresh Iyer,14-04-2025,17-04-2025,Hypertension,ECG Monitoring,General Ward,3.0,25652.0,Yes,Insurance,3.8,Yes,No
+P0076,Keerthana Krishnan,25.0,Female,O+,Orthopedics,Dr. Ajay Sharma,29-05-2025,05-06-2025,Arthritis,Surgery,Private,7.0,58619.0,No,Cash,3.5,No,Yes
+P0077,Ajay Singh,33.0,Female,B+,Neurology,Dr. Vignesh Kumar,18-07-2025,02-08-2025,Migraine,Physiotherapy,Semi Private,15.0,66157.0,No,Card,4.3,No,Yes
+P0078,Manoj Raj,35.0,Male,Ab+,Orthopedics,Dr. Ajay Sharma,13-04-2025,14-04-2025,Joint Pain,Physiotherapy,Semi Private,1.0,23338.0,Yes,Insurance,3.6,No,Yes
+P0079,Priya Das,21.0,Male,Ab+,Gastroenterology,Dr. Manoj Iyer,15-12-2025,20-12-2025,Ulcer,Diet Therapy,Private,5.0,47184.0,No,Card,3.2,No,Yes
+P0080,Kavya Krishnan,46.0,Male,O+,Dermatology,Dr. Swathi Nair,14-11-2025,18-11-2025,Skin Allergy,Laser Treatment,Semi Private,4.0,21811.0,Yes,Insurance,2.2,Yes,No
+P0081,Prakash Krishnan,47.0,Female,B-,ENT,Dr. Sathish Kumar,20-11-2025,26-11-2025,Ear Infection,Medication,Semi Private,6.0,35323.0,Yes,Insurance,4.0,No,Yes
+P0082,Pooja Sharma,56.0,Male,O-,Dermatology,Dr. Swathi Nair,15-11-2025,26-11-2025,Acne,Laser Treatment,Semi Private,11.0,42568.0,No,UPI,4.2,No,No
+P0083,Keerthana Raj,74.0,Female,A+,Neurology,Dr. Vignesh Kumar,06-08-2025,07-08-2025,Neuropathy,Neurological Therapy,ICU,1.0,30845.0,No,Card,4.0,No,Yes
+P0084,Vignesh Devi,47.0,Male,A-,Gastroenterology,Dr. Vijay Kumar,23-12-2025,24-12-2025,Gastritis,IV Therapy,Private,1.0,23990.0,Yes,Insurance,3.1,No,No
+P0085,Suresh Kumar,55.0,Female,B-,Orthopedics,Dr. Ramesh Balan,24-11-2025,30-11-2025,Joint Pain,Physiotherapy,General Ward,6.0,32905.0,Yes,Insurance,4.5,No,No
+P0086,Nisha Singh,57.0,Female,A+,ENT,Dr. Sathish Kumar,20-12-2025,24-12-2025,Tonsillitis,Observation,Private,4.0,30812.0,No,UPI,3.2,No,No
+P0087,Rahul Raj,70.0,Female,A-,Cardiology,Dr. Priya Raj,19-06-2025,20-06-2025,Hypertension,Medication,Private,1.0,29295.0,Yes,Insurance,3.7,No,Yes
+P0088,Karthik Nair,47.0,Male,A+,Pediatrics,Dr. Nisha Menon,04-06-2025,17-06-2025,Asthma,Medication,Semi Private,13.0,54609.0,No,Cash,3.4,No,No
+P0089,Harini Kumar,54.0,Female,A-,General Medicine,Dr. Rahul Kumar,05-10-2025,15-10-2025,Fever,Observation,Private,10.0,63265.0,No,Cash,4.6,No,No
+P0090,Arun Nair,53.0,Male,O+,General Medicine,Dr. Rahul Kumar,08-09-2025,09-09-2025,Infection,Observation,Private,1.0,17626.0,Yes,Insurance,4.7,Yes,Yes
+P0091,Priya Sharma,46.0,Female,B+,Neurology,Dr. Vignesh Kumar,04-01-2025,07-01-2025,Epilepsy,Medication,Semi Private,3.0,24638.0,Yes,Insurance,3.6,No,Yes
+P0092,Anitha Raj,47.0,Male,B+,Pediatrics,Dr. Kavya Raj,23-12-2025,28-12-2025,Fever,Observation,General Ward,5.0,20626.0,Yes,Insurance,4.7,No,No
+P0093,Rahul Devi,44.0,Male,O-,Orthopedics,Dr. Dinesh Raj,13-03-2025,14-03-2025,Hearing Problem,Observation,General Ward,1.0,12976.0,No,UPI,5.0,No,Yes
+P0094,Anitha Krishnan,42.0,Female,O+,Gastroenterology,Dr. Vijay Kumar,10-08-2025,11-08-2025,Ulcer,Medication,General Ward,1.0,14675.0,Yes,Insurance,2.1,No,No
+P0095,Sathish Krishnan,47.0,Male,B-,Cardiology,Dr. Divya Nair,24-07-2025,25-07-2025,Fracture,Fracture Treatment,Semi Private,1.0,26405.0,Yes,Insurance,5.0,No,No
+Unknown,Pooja Kumar,34.0,Female,O-,Cardiology,Dr. Priya Raj,17-03-2025,30-03-2025,Arrhythmia,Medication,General Ward,13.0,51183.0,Yes,Insurance,3.6,No,Yes
+P0097,Priya Balan,47.0,Male,B-,Pediatrics,Dr. Kavya Raj,18-03-2025,19-03-2025,Dehydration,IV Therapy,General Ward,1.0,18233.0,No,Card,4.7,Yes,No
+P0098,Pooja Das,47.0,Male,O+,Cardiology,Dr. Suresh Iyer,14-03-2025,15-03-2025,Arrhythmia,Cardiac Therapy,Semi Private,1.0,31107.0,No,Card,4.0,No,No
+P0099,Dinesh Iyer,20.0,Male,O-,Neurology,Dr. Vignesh Kumar,07-05-2025,11-05-2025,Neuropathy,Physiotherapy,Private,4.0,44179.0,Yes,Insurance,3.2,Yes,No
+P0100,Ramesh Kumar,47.0,Male,B-,Pediatrics,Dr. Kavya Raj,28-02-2025,05-03-2025,Asthma,Medication,General Ward,5.0,21236.0,Yes,Insurance,3.6,No,No
+P0101,Divya Balan,54.0,Male,A-,General Medicine,Dr. Anitha Devi,04-01-2025,10-01-2025,Infection,Observation,Private,6.0,40955.0,Yes,Insurance,4.2,No,No
+P0102,Arun Devi,75.0,Female,O-,Orthopedics,Dr. Divya Nair,03-09-2025,06-09-2025,Back Pain,Physiotherapy,General Ward,3.0,18929.0,No,UPI,4.8,No,No
+P0103,Pooja Raj,54.0,Male,Ab-,Gastroenterology,Dr. Manoj Iyer,21-11-2025,22-11-2025,Liver Disorder,Medication,Semi Private,1.0,15725.0,No,UPI,5.0,No,Yes
+P0104,Swathi Balan,47.0,Male,A-,Pediatrics,Dr. Deepa Krishnan,13-06-2025,25-06-2025,Fever,Medication,Semi Private,12.0,47866.0,No,Card,5.0,No,No
+P0105,Prakash Singh,18.0,Female,O-,General Medicine,Dr. Rahul Kumar,09-11-2025,11-11-2025,Infection,Observation,General Ward,2.0,5.0,No,UPI,3.8,No,Yes
+P0106,Suresh Iyer,19.0,Male,B-,Neurology,Dr. Karthik Raj,20-10-2025,30-10-2025,Migraine,Neurological Therapy,General Ward,10.0,39262.0,Yes,Insurance,5.0,Yes,Yes
+P0107,Anitha Sharma,47.0,Male,O-,Pediatrics,Dr. Deepa Krishnan,06-05-2025,17-05-2025,Fever,Observation,Semi Private,11.0,50600.0,No,UPI,2.4,No,Yes
+P0108,Ramesh Nair,25.0,Male,A-,Gastroenterology,Dr. Manoj Iyer,07-12-2025,08-12-2025,Liver Disorder,IV Therapy,Private,1.0,1500000.0,Yes,Insurance,4.2,No,No
+P0109,Nisha Iyer,34.0,Female,Ab+,Neurology,Dr. Karthik Raj,26-01-2025,03-02-2025,Stroke,Physiotherapy,Semi Private,8.0,41586.0,No,Card,4.1,No,No
+P0110,Vignesh Das,80.0,Female,A-,Dermatology,Dr. Swathi Nair,14-03-2025,22-03-2025,Eczema,Laser Treatment,ICU,8.0,108424.0,No,Cash,4.6,No,No
+P0111,Arun Menon,30.0,Female,O+,Neurology,Dr. Vignesh Kumar,06-10-2025,09-10-2025,Migraine,Neurological Therapy,Private,3.0,32867.0,Yes,Insurance,3.0,No,No
+P0112,Vignesh Devi,52.0,Male,A-,Cardiology,Dr. Priya Raj,12-04-2025,13-04-2025,Heart Disease,Cardiac Therapy,Semi Private,1.0,29317.0,No,Card,4.9,Yes,No
+P0113,Sathish Iyer,22.0,Male,B+,General Medicine,Dr. Rahul Kumar,31-10-2025,05-11-2025,Hypertension,IV Therapy,Semi Private,5.0,31234.0,No,Card,4.6,Yes,No
+P0114,Divya Iyer,68.0,Female,Ab-,General Medicine,Dr. Rahul Kumar,28-09-2025,30-09-2025,Diabetes,IV Therapy,Semi Private,2.0,18282.0,Yes,Insurance,4.7,No,No
+P0115,Kavya Reddy,53.0,Male,O+,Neurology,Dr. Vignesh Kumar,20-07-2025,13-06-2025,Epilepsy,MRI Monitoring,General Ward,6.0,32587.0,No,Card,4.4,No,Yes
+P0116,Manoj Balan,53.0,Male,B+,ENT,Dr. Dinesh Raj,25-03-2025,29-03-2025,Tonsillitis,Minor Surgery,Private,4.0,39100.0,Yes,Insurance,3.3,No,No
+P0117,Keerthana Singh,43.0,Male,B-,Cardiology,Dr. Suresh Iyer,09-01-2025,14-01-2025,Heart Disease,Medication,General Ward,5.0,33752.0,No,Cash,4.6,Yes,No
+P0118,Vijay Kumar,72.0,Female,B-,Cardiology,Dr. Arun Kumar,30-08-2025,26-08-2025,Chest Pain,ECG Monitoring,General Ward,4.0,23979.0,No,UPI,3.5,No,No
+P0119,Vignesh Kumar,74.0,Male,O+,Neurology,Dr. Meena Devi,11-09-2025,12-09-2025,Epilepsy,MRI Monitoring,General Ward,1.0,21158.0,No,UPI,2.6,No,No
+P0120,Anitha Krishnan,53.0,Male,B-,Gastroenterology,Dr. Manoj Iyer,20-08-2025,25-08-2025,Gastritis,Diet Therapy,Semi Private,5.0,27072.0,Yes,Insurance,2.5,Yes,No
+P0121,Anitha Raj,49.0,Male,B-,Orthopedics,Dr. Divya Nair,29-05-2025,31-05-2025,Arthritis,Surgery,Semi Private,2.0,27658.0,Yes,Insurance,3.1,No,No
+P0122,Keerthana Krishnan,25.0,Male,Ab-,General Medicine,Dr. Prakash Menon,30-05-2025,03-06-2025,Infection,General Treatment,ICU,4.0,65060.0,No,UPI,4.0,Yes,No
+P0123,Vijay Sharma,20.0,Female,Ab-,ENT,Dr. Harini Nair,24-05-2025,27-05-2025,Hearing Problem,ENT Therapy,General Ward,3.0,19670.0,Yes,Insurance,4.9,No,No
+P0124,Priya Krishnan,55.0,Male,A-,General Medicine,Dr. Rahul Kumar,14-08-2025,15-08-2025,Diabetes,Medication,General Ward,1.0,14582.0,Yes,Insurance,4.1,No,No
+P0125,Karthik Singh,40.0,Female,Ab-,Dermatology,Dr. Keerthana Raj,03-06-2025,08-06-2025,Eczema,Skin Therapy,Semi Private,5.0,22942.0,No,UPI,4.1,No,No
+P0126,Priya Krishnan,32.0,Male,Ab-,Cardiology,Dr. Arun Kumar,12-06-2025,14-06-2025,Arrhythmia,ECG Monitoring,Private,2.0,37373.0,No,Card,3.9,No,No
+P0127,Manoj Sharma,69.0,Female,Ab+,Dermatology,Dr. Pooja Sharma,25-01-2025,30-01-2025,Eczema,Minor Procedure,General Ward,5.0,17464.0,Yes,Insurance,4.4,No,No
+P0128,Sathish Raj,40.0,Male,O+,General Medicine,Dr. Rahul Kumar,14-10-2025,15-10-2025,Diabetes,IV Therapy,Semi Private,1.0,18988.0,Yes,Insurance,4.0,No,Yes
+P0129,Prakash Iyer,45.0,Male,B-,Cardiology,Dr. Arun Kumar,09-07-2025,11-07-2025,Arrhythmia,Cardiac Therapy,General Ward,2.0,31191.0,Yes,Insurance,4.1,No,No
+P0130,Rahul Iyer,80.0,Male,Ab-,Gastroenterology,Dr. Manoj Iyer,03-03-2025,08-03-2025,Ulcer,IV Therapy,General Ward,5.0,30331.0,Yes,Insurance,4.0,No,No
+P0131,Karthik Kumar,38.0,Female,B+,Dermatology,Dr. Pooja Sharma,18-05-2025,24-05-2025,Skin Allergy,Minor Procedure,General Ward,6.0,25392.0,Yes,Insurance,4.0,No,Yes
+P0132,Pooja Nair,47.0,Female,Ab+,Dermatology,Dr. Keerthana Raj,03-02-2025,06-02-2025,Skin Allergy,Medication,Private,3.0,26839.0,No,Cash,4.4,No,No
+P0133,Sathish Reddy,58.0,Female,O-,Orthopedics,Dr. Suresh Iyer,09-05-2025,16-05-2025,Heart Disease,Cardiac Therapy,General Ward,7.0,40912.0,No,Card,4.6,No,No
+P0134,Meena Krishnan,62.0,Male,B+,Gastroenterology,Dr. Manoj Iyer,10-03-2025,16-03-2025,Gastritis,IV Therapy,Semi Private,6.0,40540.0,Yes,Insurance,3.5,Yes,Yes
+P0135,Suresh Iyer,47.0,Female,Ab-,Pediatrics,Dr. Deepa Krishnan,10-11-2025,13-11-2025,Asthma,IV Therapy,ICU,3.0,46531.0,No,UPI,3.5,Yes,No
+P0136,  Divya Krishnan ,25.0,Male,B+,Gastroenterology,Dr. Vijay Kumar,13-09-2025,15-09-2025,Liver Disorder,Endoscopy,ICU,2.0,44154.0,Yes,Insurance,4.9,No,No
+P0137,Meena Raj,29.0,Male,A+,General Medicine,Dr. Prakash Menon,13-12-2025,26-12-2025,Hypertension,IV Therapy,Semi Private,13.0,58508.0,No,Card,3.7,No,No
+P0138,Dinesh Reddy,39.0,Male,B-,Neurology,Dr. Karthik Raj,01-08-2025,07-08-2025,Epilepsy,Physiotherapy,Semi Private,6.0,36360.0,No,UPI,3.4,No,Yes
+P0139,Harini Menon,25.0,Male,Ab+,Dermatology,Dr. Keerthana Raj,29-10-2025,04-11-2025,Eczema,Medication,Private,6.0,48451.0,Yes,Insurance,4.2,No,Yes
+P0140,Harini Devi,40.0,Male,Ab+,Neurology,Dr. Meena Devi,29-03-2025,01-04-2025,Epilepsy,MRI Monitoring,Semi Private,3.0,35260.0,No,UPI,4.0,No,No
+P0141,Kavya Raj,25.0,Male,A+,Gastroenterology,Dr. Vijay Kumar,28-12-2025,01-01-2026,Gastritis,Diet Therapy,Private,4.0,38995.0,No,Cash,3.4,No,No
+P0142,Deepa Kumar,58.0,Female,Ab-,Neurology,Dr. Karthik Raj,22-04-2025,29-04-2025,Stroke,Medication,Semi Private,7.0,47873.0,No,Card,3.5,No,No
+P0143,Suresh Nair,73.0,Male,Ab-,Orthopedics,Dr. Ajay Sharma,30-07-2025,14-08-2025,Fracture,Physiotherapy,General Ward,15.0,49596.0,No,Insurance,4.2,No,No
+P0144,Nisha Balan,62.0,Male,B-,Cardiology,Dr. Priya Raj,20-01-2025,23-01-2025,Arrhythmia,Angioplasty,Private,3.0,38792.0,No,Cash,4.7,No,No
+P0145,Divya Devi,77.0,Female,B-,General Medicine,Dr. Anitha Devi,01-11-2025,06-11-2025,Infection,Medication,General Ward,5.0,16663.0,Yes,Insurance,4.0,No,Yes
+P0146,Ramesh Nair,64.0,Male,Ab-,General Medicine,Dr. Rahul Kumar,09-11-2025,19-11-2025,Infection,Medication,Semi Private,10.0,49640.0,No,UPI,4.7,No,Yes
+P0147,Ajay Iyer,78.0,Male,A-,General Medicine,Dr. Rahul Kumar,18-05-2025,21-05-2025,Fever,Observation,General Ward,3.0,22477.0,No,Cash,4.3,No,No
+P0148,Rahul Reddy,47.0,Female,B+,Pediatrics,Dr. Kavya Raj,15-03-2025,25-03-2025,Dehydration,Medication,Private,10.0,70817.0,Yes,Insurance,4.1,Yes,Yes
+P0149,Rahul Devi,77.0,Male,B-,Dermatology,Dr. Keerthana Raj,30-12-2025,31-12-2025,Psoriasis,Laser Treatment,Private,1.0,17868.0,No,Insurance,3.9,No,No
+P0150,Vijay Sharma,61.0,Female,A+,Neurology,Dr. Vignesh Kumar,25-11-2025,29-11-2025,Epilepsy,Physiotherapy,ICU,4.0,24843.0,No,Insurance,3.8,No,Yes
+P0151,Suresh Singh,37.0,Male,B+,ENT,Dr. Sathish Kumar,23-05-2025,01-06-2025,Sinusitis,Medication,General Ward,9.0,26239.0,Yes,Card,4.6,No,No
+P0152,Prakash Singh,50.0,Male,Ab+,Cardiology,Dr. Priya Raj,27-06-2025,03-07-2025,Arrhythmia,Angioplasty,Semi Private,6.0,38797.0,Yes,Insurance,3.1,No,No
+P0153,Priya Balan,34.0,Female,O-,Cardiology,Dr. Suresh Iyer,08-04-2025,09-04-2025,Hypertension,ECG Monitoring,Semi Private,1.0,25848.0,Yes,Insurance,4.3,No,Yes
+P0154,Rahul Iyer,55.0,Female,A-,ENT,Dr. Sathish Kumar,28-02-2025,03-03-2025,Hearing Problem,Minor Surgery,General Ward,3.0,14754.0,Yes,Insurance,3.3,No,Yes
+P0155,Arun Balan,31.0,Female,B+,ENT,Dr. Harini Nair,17-06-2025,30-06-2025,Tonsillitis,Observation,Private,13.0,81113.0,Yes,Insurance,4.7,No,No
+P0156,Vignesh Sharma,36.0,Male,Ab+,Orthopedics,Dr. Ajay Sharma,16-07-2025,27-07-2025,Fracture,Medication,General Ward,11.0,32807.0,Yes,Insurance,3.9,No,No
+P0157,Meena Nair,59.0,Male,B-,Neurology,Dr. Karthik Raj,12-11-2025,18-11-2025,Epilepsy,MRI Monitoring,Private,6.0,29263.0,No,Cash,3.8,No,No
+P0158,Dinesh Iyer,47.0,Male,Ab-,ENT,Dr. Dinesh Raj,03-09-2025,11-09-2025,Ear Infection,Observation,General Ward,8.0,29083.0,No,Cash,4.4,No,No
+P0159,Vignesh Sharma,44.0,Female,A-,Orthopedics,Dr. Divya Nair,21-11-2025,25-11-2025,Back Pain,Fracture Treatment,Semi Private,4.0,29664.0,No,Card,4.1,No,No
+P0160,Arun Iyer,20.0,Male,B-,Cardiology,Dr. Vijay Kumar,17-03-2025,20-03-2025,Gastritis,IV Therapy,General Ward,3.0,19748.0,Yes,Insurance,3.7,No,No
+P0161,Pooja Raj,40.0,Female,B-,Cardiology,Dr. Suresh Iyer,25-06-2025,30-06-2025,Chest Pain,Angioplasty,Private,5.0,53263.0,Yes,Insurance,4.0,No,Yes
+P0162,Vijay Devi,80.0,Male,Ab+,ENT,Dr. Dinesh Raj,08-03-2025,14-03-2025,Ear Infection,Observation,Semi Private,6.0,32625.0,Yes,Insurance,4.1,No,No
+P0163,Swathi Sharma,26.0,Male,O-,Gastroenterology,Dr. Vijay Kumar,21-12-2025,22-12-2025,Liver Disorder,IV Therapy,Private,1.0,17638.0,No,UPI,2.8,No,Yes
+P0164,Swathi Devi,42.0,Male,A-,General Medicine,Dr. Rahul Kumar,10-12-2025,11-12-2025,Diabetes,General Treatment,ICU,1.0,23757.0,No,UPI,2.9,Yes,No
+P0165,Swathi Das,36.0,Male,B+,Gastroenterology,Dr. Manoj Iyer,30-04-2025,06-05-2025,Liver Disorder,Endoscopy,Semi Private,6.0,40904.0,Yes,Insurance,4.0,No,Yes
+P0166,Prakash Menon,25.0,Male,B+,General Medicine,Dr. Anitha Devi,02-01-2025,07-01-2025,Fever,Medication,Semi Private,5.0,26198.0,Yes,Cash,4.0,No,Yes
+P0167,Harini Menon,47.0,Female,O+,General Medicine,Dr. Rahul Kumar,21-06-2025,22-06-2025,Diabetes,IV Therapy,General Ward,1.0,12316.0,Yes,Insurance,3.6,No,No
+P0168,Divya Nair,38.0,Female,Ab+,ENT,Dr. Sathish Kumar,03-11-2025,06-11-2025,Ear Infection,Observation,Private,3.0,25846.0,Yes,Insurance,4.2,No,No
+P0169,Meena Devi,18.0,Female,A-,Gastroenterology,Dr. Manoj Iyer,13-03-2025,18-03-2025,Gastritis,Medication,General Ward,5.0,23736.0,Yes,Insurance,4.1,No,No
+P001,  Swathi Kumar ,52.0,Female,O-,Dermatology,Dr. Pooja Sharma,25-08-2025,29-08-2025,Psoriasis,Minor Procedure,Semi Private,4.0,23096.0,Yes,Insurance,3.6,No,No
+P0171,Prakash Singh,47.0,Male,B+,Pediatrics,Dr. Nisha Menon,11-07-2025,15-07-2025,Respiratory Infection,IV Therapy,General Ward,4.0,23821.0,Yes,Insurance,3.6,No,No
+P0172,Meena Iyer,36.0,Male,B-,Orthopedics,Dr. Ramesh Balan,29-11-2025,09-12-2025,Joint Pain,Surgery,General Ward,10.0,39210.0,Yes,Insurance,4.6,No,No
+P0173,Priya Sharma,25.0,Female,A+,Neurology,Dr. Vignesh Kumar,02-06-2025,07-06-2025,Neuropathy,Physiotherapy,General Ward,5.0,27052.0,No,Cash,4.0,Yes,No
+P0174,Sathish Balan,32.0,Female,A-,ENT,Dr. Sathish Kumar,10-02-2025,20-02-2025,Ear Infection,Medication,Private,10.0,66700.0,No,UPI,4.7,No,No
+P0175,Karthik Das,44.0,Male,O+,General Medicine,Dr. Prakash Menon,27-04-2025,06-05-2025,Infection,Observation,General Ward,9.0,29231.0,No,Card,4.0,No,No
+P0176,Divya Devi,42.0,Male,O+,Gastroenterology,Dr. Manoj Iyer,06-10-2025,13-10-2025,Gastritis,Endoscopy,General Ward,7.0,34116.0,No,Card,3.8,No,No
+P0177,Arun Singh,49.0,Male,A-,Neurology,Dr. Karthik Raj,14-07-2025,22-07-2025,Epilepsy,MRI Monitoring,ICU,8.0,114134.0,Yes,Insurance,3.8,Yes,No
+P0178,Ramesh Das,37.0,Female,B+,Neurology,Dr. Manoj Iyer,02-10-2025,03-10-2025,Gastritis,Endoscopy,Semi Private,1.0,16211.0,Yes,Insurance,3.9,No,No
+P0179,Karthik Das,73.0,Male,B-,ENT,Dr. Harini Nair,23-07-2025,27-07-2025,Tonsillitis,Minor Surgery,General Ward,4.0,20444.0,Yes,Insurance,3.6,Yes,No
+P0180,Suresh Balan,68.0,Male,Ab+,Neurology,Dr. Meena Devi,02-11-2025,04-11-2025,Neuropathy,Medication,General Ward,2.0,22940.0,Yes,Insurance,4.0,No,No
+P0181,Suresh Krishnan,46.0,Male,Ab+,Neurology,Dr. Meena Devi,18-03-2025,23-03-2025,Migraine,Physiotherapy,General Ward,5.0,25936.0,Yes,Insurance,4.4,No,No
+P0182,Deepa Iyer,59.0,Female,B+,Orthopedics,Dr. Ajay Sharma,20-12-2025,22-12-2025,Joint Pain,Medication,General Ward,2.0,16940.0,Yes,Insurance,2.5,No,No
+P0183,  Ajay Iyer ,47.0,Male,Ab+,Pediatrics,Dr. Kavya Raj,21-04-2025,28-04-2025,Fever,Medication,General Ward,7.0,25252.0,No,Card,4.8,No,Yes
+P0184,Suresh Kumar,28.0,Female,B-,ENT,Dr. Dinesh Raj,06-11-2025,10-11-2025,Ear Infection,Minor Surgery,Private,4.0,36038.0,Yes,Insurance,5.0,No,Yes
+P0185,Shalini Reddy,43.0,Male,B+,Orthopedics,Dr. Ajay Sharma,31-10-2025,01-11-2025,Joint Pain,Surgery,Private,1.0,25666.0,Yes,Insurance,5.0,No,No
+P0186,Manoj Devi,47.0,Female,B-,Pediatrics,Dr. Kavya Raj,07-08-2025,10-08-2025,Dehydration,Observation,Private,3.0,28642.0,No,UPI,3.1,Yes,No
+P0187,Harini Nair,36.0,Male,B+,Cardiology,Dr. Priya Raj,04-03-2025,13-03-2025,Heart Disease,Angioplasty,Private,9.0,56934.0,No,UPI,4.7,No,No
+P0188,Ajay Raj,47.0,Female,A-,General Medicine,Dr. Prakash Menon,18-06-2025,20-06-2025,Hypertension,IV Therapy,General Ward,2.0,14752.0,No,UPI,4.6,Yes,Yes
+P0189,Priya Singh,42.0,Male,A+,General Medicine,Dr. Anitha Devi,06-02-2025,12-02-2025,Fever,Observation,General Ward,6.0,27759.0,No,Cash,4.4,No,No
+P0190,Anitha Raj,20.0,Female,A+,Dermatology,Dr. Pooja Sharma,07-07-2025,12-07-2025,Eczema,Laser Treatment,Private,5.0,35092.0,No,Insurance,4.3,No,No
+P0191,Rahul Iyer,47.0,Male,A+,Neurology,Dr. Karthik Raj,13-01-2025,18-01-2025,Migraine,Physiotherapy,General Ward,5.0,29409.0,Yes,Insurance,4.6,No,No
+P0192,Swathi Raj,47.0,Female,Ab-,Pediatrics,Dr. Kavya Raj,02-07-2025,06-07-2025,Dehydration,IV Therapy,Semi Private,4.0,26451.0,No,Card,3.9,No,No
+P0193,Harini Nair,47.0,Male,O+,Pediatrics,Dr. Deepa Krishnan,12-01-2025,16-01-2025,Dehydration,Medication,General Ward,4.0,18145.0,No,UPI,3.5,No,No
+P0194,Ramesh Devi,46.0,Male,B+,ENT,Dr. Rahul Kumar,05-06-2025,06-06-2025,Ear Infection,Observation,General Ward,1.0,13532.0,No,Card,4.0,No,No
+P0195,Manoj Iyer,75.0,Male,O-,Cardiology,Dr. Suresh Iyer,06-08-2025,10-08-2025,Hypertension,Cardiac Therapy,ICU,4.0,74094.0,Yes,Insurance,4.4,No,Yes
+P0196,Vignesh Devi,47.0,Male,O-,Pediatrics,Dr. Deepa Krishnan,20-10-2025,21-10-2025,Dehydration,Medication,General Ward,1.0,13223.0,Yes,Insurance,3.4,No,Yes
+P0197,Manoj Reddy,30.0,Male,Ab+,Gastroenterology,Dr. Vijay Kumar,29-07-2025,02-08-2025,Gastritis,Diet Therapy,Semi Private,4.0,28224.0,No,Card,3.8,No,Yes
+P0198,Vijay Menon,45.0,Male,B+,Orthopedics,Dr. Ramesh Balan,22-11-2025,27-11-2025,Fracture,Surgery,General Ward,5.0,23461.0,Yes,Insurance,4.3,Yes,No
+P0199,Ramesh Nair,64.0,Male,B-,Cardiology,Dr. Anitha Devi,22-02-2025,28-02-2025,Hypertension,General Treatment,General Ward,6.0,20973.0,Yes,Insurance,3.8,No,No
+P0200,Prakash Singh,77.0,Female,A-,Neurology,Dr. Vignesh Kumar,12-12-2025,18-12-2025,Stroke,Medication,General Ward,6.0,29027.0,Yes,Insurance,2.0,Yes,No
+P0201,Nisha Das,51.0,Male,B-,Cardiology,Dr. Arun Kumar,14-05-2025,17-05-2025,Chest Pain,Cardiac Therapy,General Ward,3.0,32624.0,No,UPI,3.1,No,Yes
+P0202,Vignesh Raj,25.0,Female,B-,Orthopedics,Dr. Ramesh Balan,13-08-2025,18-08-2025,Back Pain,Fracture Treatment,General Ward,5.0,30835.0,No,Card,2.9,No,Yes
+P0203,Kavya Krishnan,26.0,Female,A+,Neurology,Dr. Meena Devi,29-04-2025,06-05-2025,Epilepsy,Medication,ICU,7.0,105683.0,No,Cash,3.5,No,No
+P0204,Shalini Nair,47.0,Female,A+,ENT,Dr. Sathish Kumar,17-12-2025,23-12-2025,Tonsillitis,Medication,General Ward,6.0,50.0,No,Card,3.6,No,No
+P0205,Vijay Iyer,22.0,Female,Ab-,Neurology,Dr. Meena Devi,25-03-2025,30-03-2025,Stroke,Physiotherapy,Semi Private,5.0,36685.0,Yes,UPI,4.8,No,No
+P0206,Manoj Raj,47.0,Male,O+,Pediatrics,Dr. Deepa Krishnan,06-01-2025,09-01-2025,Fever,Observation,General Ward,3.0,20211.0,No,UPI,3.4,No,No
+P0207,Prakash Das,47.0,Male,Ab+,ENT,Dr. Harini Nair,06-07-2025,19-07-2025,Ear Infection,ENT Therapy,Semi Private,13.0,54358.0,Yes,Insurance,3.4,No,No
+P0208,Deepa Krishnan,47.0,Male,A-,Dermatology,Dr. Swathi Nair,08-02-2025,15-02-2025,Psoriasis,Minor Procedure,ICU,7.0,100493.0,No,Card,5.0,No,No
+P0209,Karthik Menon,47.0,Male,Ab+,Pediatrics,Dr. Deepa Krishnan,09-09-2025,11-09-2025,Dehydration,Medication,Semi Private,2.0,21535.0,Yes,Insurance,3.7,No,No
+P0210,Karthik Devi,18.0,Male,O+,Neurology,Dr. Vignesh Kumar,09-06-2025,13-06-2025,Stroke,Physiotherapy,Semi Private,4.0,36971.0,Yes,Insurance,4.0,No,No
+P0211,Suresh Balan,47.0,Male,A+,Pediatrics,Dr. Deepa Krishnan,24-04-2025,03-05-2025,Asthma,Observation,Private,9.0,59199.0,Yes,Insurance,4.4,No,No
+P0212,Rahul Reddy,47.0,Male,A-,Pediatrics,Dr. Kavya Raj,08-11-2025,13-11-2025,Fever,Nebulization,Semi Private,5.0,32521.0,No,Cash,4.5,No,No
+P0213,Karthik Singh,25.0,Male,O-,Gastroenterology,Dr. Shalini Devi,10-02-2025,12-02-2025,Gastritis,Diet Therapy,Semi Private,4.0,21970.0,Yes,Insurance,4.0,No,No
+P0214,Dinesh Iyer,21.0,Male,Ab-,Neurology,Dr. Karthik Raj,19-11-2025,23-11-2025,Stroke,Medication,Semi Private,4.0,31052.0,Yes,Insurance,4.5,Yes,No
+P0215,Ramesh Krishnan,74.0,Male,Ab+,Dermatology,Dr. Pooja Sharma,18-05-2025,20-05-2025,Eczema,Laser Treatment,General Ward,2.0,12256.0,Yes,Insurance,4.5,No,No
+P0216,Nisha Singh,44.0,Female,Ab+,ENT,Dr. Harini Nair,25-07-2025,26-07-2025,Sinusitis,Observation,General Ward,1.0,16514.0,No,UPI,3.1,No,Yes
+P0217,Prakash Sharma,59.0,Female,B-,Gastroenterology,Dr. Shalini Devi,21-07-2025,22-07-2025,Gastritis,IV Therapy,General Ward,1.0,21512.0,Yes,Insurance,3.8,No,Yes
+P0218,Keerthana Krishnan,80.0,Male,O+,Cardiology,Dr. Priya Raj,05-08-2025,04-08-2025,Chest Pain,Medication,ICU,2.0,50361.0,No,UPI,5.0,No,Yes
+P0219,Nisha Reddy,58.0,Female,A+,Orthopedics,Dr. Ramesh Balan,14-03-2025,17-03-2025,Back Pain,Physiotherapy,General Ward,3.0,27923.0,Yes,Insurance,4.2,No,No
+P0220,Priya Reddy,47.0,Female,O-,ENT,Dr. Sathish Kumar,05-12-2025,12-12-2025,Hypertension,ENT Therapy,General Ward,7.0,24273.0,No,Card,3.7,No,No
+P0221,Kavya Krishnan,47.0,Female,O+,ENT,Dr. Sathish Kumar,10-10-2025,14-10-2025,Ear Infection,Observation,General Ward,4.0,16555.0,No,UPI,3.3,No,No
+P0222,Keerthana Sharma,24.0,Female,O-,ENT,Dr. Dinesh Raj,25-07-2025,30-07-2025,Sinusitis,Observation,Semi Private,5.0,31451.0,No,UPI,3.8,No,No
+P0223,Nisha Krishnan,29.0,Male,Ab-,Orthopedics,Dr. Ramesh Balan,07-04-2025,10-04-2025,Back Pain,Physiotherapy,Private,3.0,36736.0,Yes,Insurance,3.5,No,No
+P0224,Shalini Sharma,30.0,Male,O-,Cardiology,Dr. Priya Raj,25-03-2025,30-03-2025,Chest Pain,Angioplasty,Semi Private,5.0,44741.0,No,Card,4.7,No,Yes
+P0225,Prakash Das,46.0,Male,B-,Dermatology,Dr. Pooja Sharma,21-07-2025,23-07-2025,Acne,Skin Therapy,ICU,2.0,39033.0,Yes,Insurance,4.3,No,No
+P0226,Ramesh Nair,19.0,Female,B+,ENT,Dr. Dinesh Raj,04-05-2025,08-05-2025,Ear Infection,Observation,Private,4.0,37845.0,No,UPI,3.0,No,No
+P0227,Anitha Krishnan,47.0,Male,B-,Gastroenterology,Dr. Shalini Devi,05-11-2025,06-11-2025,Food Poisoning,Endoscopy,ICU,1.0,24742.0,Yes,Insurance,5.0,No,No
+P0228,Shalini Nair,27.0,Female,A-,Neurology,Dr. Meena Devi,05-11-2025,16-11-2025,Migraine,Medication,Private,11.0,84251.0,Yes,Insurance,3.6,No,Yes
+P0229,Anitha Nair,24.0,Male,A-,Neurology,Dr. Anitha Devi,01-11-2025,05-11-2025,Infection,Observation,ICU,4.0,62817.0,Yes,Insurance,3.7,No,No
+P0230,Sathish Krishnan,47.0,Male,A-,Pediatrics,Dr. Deepa Krishnan,28-09-2025,05-10-2025,Dehydration,Medication,Semi Private,7.0,36489.0,No,Cash,4.3,Yes,Yes
+P0231,Arun Das,69.0,Female,A-,Gastroenterology,Dr. Vijay Kumar,16-02-2025,17-02-2025,Food Poisoning,IV Therapy,General Ward,1.0,18285.0,Yes,Insurance,4.0,No,No
+P0232,Dinesh Singh,53.0,Male,Ab-,Orthopedics,Dr. Ajay Sharma,15-11-2025,19-11-2025,Arthritis,Physiotherapy,General Ward,4.0,22193.0,Yes,Insurance,3.8,No,Yes
+P0233,Anitha Balan,56.0,Female,B-,Orthopedics,Dr. Divya Nair,11-10-2025,21-10-2025,Joint Pain,Medication,Private,10.0,69873.0,Yes,Cash,4.0,No,Yes
+P0234,Sathish Nair,80.0,Female,B-,Neurology,Dr. Vignesh Kumar,30-05-2025,06-06-2025,Migraine,Neurological Therapy,Semi Private,7.0,44315.0,No,UPI,3.8,No,Yes
+P0235,Ramesh Sharma,18.0,Male,B+,Cardiology,Dr. Arun Kumar,12-04-2025,13-04-2025,Hypertension,Cardiac Therapy,General Ward,1.0,21444.0,No,Cash,4.6,No,No
+P0236,Swathi Reddy,40.0,Female,Ab+,Neurology,Dr. Meena Devi,02-06-2025,05-06-2025,Stroke,Medication,General Ward,3.0,24327.0,No,UPI,4.7,No,No
+P0237,  Prakash Menon ,78.0,Male,O-,Cardiology,Dr. Suresh Iyer,17-05-2025,18-05-2025,Heart Disease,Medication,Private,1.0,31706.0,Yes,Insurance,4.3,Yes,Yes
+P0238,Prakash Reddy,54.0,Female,Ab+,Gastroenterology,Dr. Vijay Kumar,28-03-2025,30-03-2025,Gastritis,Endoscopy,Private,2.0,23647.0,Yes,Insurance,4.6,No,Yes
+P0239,Divya Raj,50.0,Male,A-,Dermatology,Dr. Pooja Sharma,28-07-2025,31-07-2025,Eczema,Skin Therapy,ICU,3.0,30690.0,Yes,Insurance,4.0,Yes,No
+P0240,Ajay Devi,32.0,Female,O-,Orthopedics,Dr. Ajay Sharma,01-06-2025,06-06-2025,Arthritis,Surgery,Semi Private,5.0,32360.0,Yes,Insurance,3.8,No,No
+P0241,Shalini Balan,47.0,Male,O+,Pediatrics,Dr. Kavya Raj,03-04-2025,07-04-2025,Fever,Nebulization,General Ward,4.0,18752.0,Yes,Insurance,3.9,No,Yes
+P0242,Ramesh Iyer,70.0,Male,O-,Cardiology,Dr. Priya Raj,12-07-2025,13-07-2025,Arrhythmia,Cardiac Therapy,Private,1.0,32942.0,Yes,Insurance,4.5,Yes,No
+P0243,Swathi Devi,73.0,Male,A-,ENT,Dr. Dinesh Raj,17-11-2025,21-11-2025,Sinusitis,ENT Therapy,Private,4.0,40164.0,Yes,Insurance,4.8,No,Yes
+P0244,Harini Nair,74.0,Female,O+,Dermatology,Dr. Swathi Nair,20-08-2025,21-08-2025,Psoriasis,Minor Procedure,General Ward,1.0,15685.0,Yes,Insurance,3.5,No,No
+P0245,Swathi Singh,62.0,Male,B-,Cardiology,Dr. Priya Raj,23-03-2025,26-03-2025,Arrhythmia,ECG Monitoring,Private,3.0,37882.0,Yes,Cash,3.4,No,Yes
+P0246,Shalini Krishnan,47.0,Female,O-,Gastroenterology,Dr. Manoj Iyer,23-08-2025,31-08-2025,Ulcer,Endoscopy,Private,8.0,55670.0,No,Cash,3.9,No,No
+P0247,Anitha Balan,75.0,Male,O-,General Medicine,Dr. Shalini Devi,28-07-2025,29-07-2025,Liver Disorder,IV Therapy,General Ward,1.0,21035.0,No,UPI,3.1,No,No
+P0248,Meena Das,79.0,Male,O-,Neurology,Dr. Karthik Raj,28-11-2025,02-12-2025,Epilepsy,Physiotherapy,Private,4.0,37053.0,Yes,Insurance,5.0,No,No
+P0249,Prakash Nair,28.0,Male,O+,General Medicine,Dr. Rahul Kumar,26-07-2025,30-07-2025,Fever,IV Therapy,Semi Private,4.0,26339.0,Yes,Insurance,4.4,No,No
+P0250,Divya Reddy,47.0,Male,Ab-,Pediatrics,Dr. Deepa Krishnan,26-09-2025,01-10-2025,Fever,Observation,Private,5.0,36546.0,No,UPI,4.0,No,No
+P0251,Keerthana Nair,54.0,Male,O-,Neurology,Dr. Priya Raj,04-03-2025,06-03-2025,Chest Pain,Cardiac Therapy,Semi Private,2.0,34199.0,Yes,Insurance,3.6,No,No
+P0252,Nisha Das,35.0,Female,B-,ENT,Dr. Sathish Kumar,15-09-2025,21-09-2025,Sinusitis,ENT Therapy,Private,6.0,45488.0,Yes,Insurance,4.1,No,No
+P0253,Sathish Menon,52.0,Female,Ab+,Orthopedics,Dr. Rahul Kumar,17-12-2025,18-12-2025,Arthritis,Physiotherapy,Semi Private,1.0,19050.0,Yes,Insurance,4.9,Yes,No
+P0254,Kavya Devi,49.0,Female,B-,Cardiology,Dr. Arun Kumar,02-07-2025,10-07-2025,Hypertension,ECG Monitoring,Semi Private,8.0,53306.0,No,Cash,3.6,No,No
+P0255,Suresh Devi,47.0,Male,B-,Pediatrics,Dr. Deepa Krishnan,02-06-2025,04-06-2025,Dehydration,Nebulization,Semi Private,2.0,18439.0,Yes,Insurance,5.0,No,No
+P0256,Shalini Reddy,31.0,Male,Ab+,Cardiology,Dr. Arun Kumar,22-07-2025,02-08-2025,Hypertension,Medication,Private,11.0,82726.0,No,Card,2.9,No,No
+P0257,Ramesh Kumar,39.0,Male,Ab-,Dermatology,Dr. Keerthana Raj,05-12-2025,11-12-2025,Eczema,Minor Procedure,Private,6.0,44836.0,Yes,Insurance,3.7,No,Yes
+P0258,Manoj Raj,60.0,Male,A+,Orthopedics,Dr. Divya Nair,26-07-2025,25-07-2025,Arthritis,Fracture Treatment,Private,8.0,64389.0,No,Card,5.0,Yes,No
+P0259,Nisha Das,57.0,Male,O-,General Medicine,Dr. Prakash Menon,26-10-2025,27-10-2025,Infection,IV Therapy,General Ward,1.0,15929.0,Yes,Insurance,4.7,No,No
+P0260,Vijay Sharma,52.0,Female,O+,Gastroenterology,Dr. Manoj Iyer,28-06-2025,29-06-2025,Liver Disorder,Diet Therapy,Private,1.0,19794.0,No,UPI,4.2,No,No
+P0261,Kavya Sharma,46.0,Male,Ab+,Dermatology,Dr. Pooja Sharma,11-01-2025,18-01-2025,Skin Allergy,Laser Treatment,General Ward,4.0,30517.0,Yes,Insurance,2.7,No,Yes
+P0262,Kavya Reddy,73.0,Female,A+,General Medicine,Dr. Prakash Menon,26-12-2025,28-12-2025,Diabetes,General Treatment,Semi Private,4.0,14261.0,Yes,Insurance,3.8,No,Yes
+P0263,Anitha Balan,47.0,Female,O-,General Medicine,Dr. Anitha Devi,15-06-2025,23-06-2025,Hypertension,IV Therapy,General Ward,8.0,28942.0,No,Card,3.7,Yes,Yes
+P0264,Shalini Raj,34.0,Male,Ab-,Gastroenterology,Dr. Manoj Iyer,06-03-2025,09-03-2025,Gastritis,Diet Therapy,General Ward,3.0,21320.0,No,Cash,4.2,No,No
+P0265,Manoj Krishnan,32.0,Male,B-,Cardiology,Dr. Priya Raj,16-04-2025,18-04-2025,Chest Pain,Cardiac Therapy,Semi Private,2.0,30174.0,Yes,Insurance,4.0,No,No
+P0266,Prakash Kumar,33.0,Male,Ab-,Neurology,Dr. Vignesh Kumar,22-10-2025,25-10-2025,Migraine,Medication,Private,3.0,34035.0,Yes,Insurance,3.7,No,No
+P0267,Karthik Menon,21.0,Male,Ab+,Dermatology,Dr. Keerthana Raj,08-02-2025,18-02-2025,Eczema,Minor Procedure,Private,10.0,63758.0,Yes,Insurance,4.0,No,No
+P0268,Suresh Sharma,79.0,Male,O+,ENT,Dr. Dinesh Raj,04-07-2025,11-07-2025,Tonsillitis,Minor Surgery,General Ward,7.0,24582.0,No,Cash,4.2,No,No
+P0269,Arun Kumar,39.0,Female,A-,Gastroenterology,Dr. Vijay Kumar,13-01-2025,18-01-2025,Liver Disorder,Medication,Semi Private,5.0,35112.0,No,Cash,3.4,No,No
+P0270,Priya Nair,76.0,Female,O+,Orthopedics,Dr. Ramesh Balan,26-09-2025,30-09-2025,Arthritis,Medication,Semi Private,4.0,31392.0,No,UPI,3.3,No,No
+P0271,Kavya Menon,30.0,Male,Ab+,Dermatology,Dr. Pooja Sharma,20-06-2025,21-06-2025,Psoriasis,Minor Procedure,General Ward,1.0,14292.0,Yes,Insurance,4.6,No,No
+P0272,Ramesh Menon,71.0,Male,Ab+,Cardiology,Dr. Priya Raj,01-01-2025,08-01-2025,Hypertension,Medication,Private,7.0,61291.0,Yes,Insurance,4.2,No,No
+P0273,Vijay Iyer,47.0,Female,O+,General Medicine,Dr. Anitha Devi,17-04-2025,04-11-2025,Fever,Observation,General Ward,7.0,30454.0,Yes,Insurance,3.5,No,No
+P0274,Vijay Devi,71.0,Female,O+,Orthopedics,Dr. Ajay Sharma,19-07-2025,26-07-2025,Back Pain,Fracture Treatment,General Ward,7.0,35978.0,Yes,Insurance,4.6,No,No
+P0275,Dinesh Menon,45.0,Female,B+,ENT,Dr. Harini Nair,07-02-2025,18-02-2025,Hearing Problem,ENT Therapy,Private,11.0,74320.0,Yes,Insurance,4.7,No,No
+P0276,Nisha Raj,18.0,Female,Ab-,General Medicine,Dr. Rahul Kumar,29-07-2025,12-08-2025,Diabetes,Medication,Semi Private,14.0,58403.0,Yes,Insurance,4.8,No,No
+P0277,Ajay Devi,31.0,Female,Ab+,ENT,Dr. Sathish Kumar,25-08-2025,28-08-2025,Ear Infection,ENT Therapy,Semi Private,3.0,18373.0,Yes,Insurance,3.0,Yes,No
+P0278,Deepa Reddy,70.0,Female,O+,General Medicine,Dr. Rahul Kumar,20-07-2025,16-02-2025,Hypertension,Medication,Semi Private,3.0,18998.0,Yes,Insurance,4.6,No,No
+P0279,Swathi Sharma,38.0,Male,Ab-,Orthopedics,Dr. Ramesh Balan,06-12-2025,14-12-2025,Fracture,Fracture Treatment,General Ward,8.0,33989.0,Yes,Insurance,4.3,Yes,No
+P0280,Karthik Singh,64.0,Male,A-,Cardiology,Dr. Arun Kumar,01-04-2025,11-04-2025,Arrhythmia,Medication,Private,10.0,76773.0,Yes,Insurance,3.5,Yes,Yes
+P0281,Priya Kumar,22.0,Female,B-,ENT,Dr. Sathish Kumar,25-08-2025,26-08-2025,Ear Infection,ENT Therapy,General Ward,1.0,13838.0,No,Cash,4.2,No,Yes
+P0282,Priya Reddy,80.0,Male,B-,Neurology,Dr. Karthik Raj,08-08-2025,21-08-2025,Neuropathy,Medication,General Ward,13.0,42206.0,No,UPI,3.8,No,Yes
+P0283,Prakash Kumar,18.0,Male,A-,Gastroenterology,Dr. Manoj Iyer,17-11-2025,18-11-2025,Gastritis,Endoscopy,Private,1.0,17949.0,No,Cash,3.6,No,No
+P0284,Prakash Iyer,52.0,Female,B+,Dermatology,Dr. Keerthana Raj,14-01-2025,17-01-2025,Skin Allergy,Laser Treatment,Private,3.0,25580.0,Yes,Insurance,4.3,Yes,No
+P0285,Swathi Reddy,43.0,Female,B-,Neurology,Dr. Vignesh Kumar,30-10-2025,03-11-2025,Epilepsy,Neurological Therapy,Semi Private,4.0,36701.0,No,Card,4.0,No,Yes
+P0286,Prakash Reddy,52.0,Male,B-,Orthopedics,Dr. Ramesh Balan,10-04-2025,16-04-2025,Back Pain,Fracture Treatment,ICU,6.0,95283.0,No,Cash,4.3,No,No
+P0287,Priya Devi,31.0,Female,O-,ENT,Dr. Sathish Kumar,27-08-2025,29-08-2025,Tonsillitis,ENT Therapy,General Ward,2.0,18727.0,No,Cash,4.1,No,Yes
+P0288,Priya Das,74.0,Female,Ab+,ENT,Dr. Sathish Kumar,13-10-2025,19-10-2025,Sinusitis,Minor Surgery,Semi Private,6.0,32016.0,No,UPI,2.9,No,No
+P0289,Kavya Sharma,21.0,Male,O-,Dermatology,Dr. Pooja Sharma,03-04-2025,13-04-2025,Acne,Skin Therapy,General Ward,10.0,26717.0,Yes,Insurance,2.7,No,No
+P0290,Harini Kumar,21.0,Female,Ab-,ENT,Dr. Sathish Kumar,03-12-2025,09-12-2025,Tonsillitis,Medication,General Ward,6.0,19025.0,No,UPI,4.3,No,Yes
+P0291,Ramesh Sharma,31.0,Female,O+,General Medicine,Dr. Anitha Devi,13-08-2025,16-08-2025,Diabetes,General Treatment,General Ward,3.0,21432.0,Yes,Insurance,3.0,Yes,No
+P0292,Swathi Devi,42.0,Female,O-,Gastroenterology,Dr. Rahul Kumar,15-03-2025,24-03-2025,Ulcer,IV Therapy,General Ward,9.0,33982.0,Yes,Insurance,4.4,No,No
+P0293,Keerthana Devi,62.0,Male,B+,Dermatology,Dr. Keerthana Raj,28-07-2025,30-07-2025,Psoriasis,Laser Treatment,Private,2.0,25669.0,Yes,Insurance,4.1,No,No
+P0294,Ramesh Singh,65.0,Male,O+,Gastroenterology,Dr. Shalini Devi,25-10-2025,30-10-2025,Liver Disorder,Endoscopy,General Ward,5.0,25877.0,Yes,Insurance,3.6,No,Yes
+P0295,Suresh Reddy,47.0,Female,Ab-,Pediatrics,Dr. Deepa Krishnan,17-01-2025,19-01-2025,Respiratory Infection,Medication,General Ward,2.0,11427.0,No,Cash,4.1,No,No
+P0296,Suresh Das,47.0,Male,B-,Pediatrics,Dr. Kavya Raj,16-08-2025,22-08-2025,Dehydration,Medication,Semi Private,6.0,29913.0,Yes,Insurance,3.6,No,No
+P0297,Harini Sharma,33.0,Female,B-,Dermatology,Dr. Pooja Sharma,26-05-2025,27-05-2025,Psoriasis,Medication,General Ward,1.0,7344.0,Yes,Insurance,3.5,No,No
+P0298,Dinesh Das,74.0,Male,Ab-,Dermatology,Dr. Keerthana Raj,28-05-2025,02-06-2025,Psoriasis,Medication,Private,5.0,34873.0,Yes,Insurance,4.6,No,Yes
+P0299,Kavya Raj,24.0,Female,B-,Cardiology,Dr. Arun Kumar,09-03-2025,21-03-2025,Arrhythmia,Cardiac Therapy,Private,12.0,95680.0,Yes,Insurance,3.7,No,Yes
+P0300,Prakash Kumar,18.0,Male,O+,Neurology,Dr. Manoj Iyer,07-12-2025,14-12-2025,Liver Disorder,Diet Therapy,General Ward,7.0,32097.0,Yes,Insurance,5.0,No,No
+P0301,Arun Singh,41.0,Male,Ab-,Neurology,Dr. Meena Devi,17-09-2025,18-09-2025,Epilepsy,Medication,General Ward,1.0,25809.0,No,Cash,4.5,No,Yes
+P0302,Deepa Balan,44.0,Male,A-,Cardiology,Dr. Arun Kumar,10-02-2025,25-02-2025,Heart Disease,Cardiac Therapy,General Ward,15.0,52155.0,Yes,Insurance,4.0,Yes,No
+P0303,Suresh Menon,68.0,Female,Ab+,Cardiology,Dr. Suresh Iyer,04-05-2025,10-05-2025,Arrhythmia,Medication,Semi Private,6.0,39609.0,No,Card,4.9,Yes,Yes
+P0304,Divya Nair,31.0,Female,O+,Neurology,Dr. Karthik Raj,11-06-2025,21-06-2025,Neuropathy,MRI Monitoring,Semi Private,10.0,53135.0,No,Cash,3.7,No,No
+P0305,Meena Devi,37.0,Female,O+,General Medicine,Dr. Rahul Kumar,18-01-2025,04-11-2025,Fever,Observation,General Ward,5.0,24044.0,Yes,Insurance,4.5,No,No
+P0306,Ramesh Menon,31.0,Female,Ab+,Gastroenterology,Dr. Manoj Iyer,13-11-2025,16-11-2025,Liver Disorder,Diet Therapy,General Ward,3.0,22075.0,No,Card,3.1,No,Yes
+P0307,Meena Das,60.0,Female,B+,Dermatology,Dr. Swathi Nair,19-12-2025,20-12-2025,Skin Allergy,Medication,General Ward,1.0,11871.0,Yes,Insurance,4.0,Yes,No
+P0308,Deepa Reddy,47.0,Female,B+,Dermatology,Dr. Pooja Sharma,21-11-2025,24-11-2025,Acne,Laser Treatment,General Ward,3.0,20362.0,Yes,Insurance,3.8,No,No
+P0309,Keerthana Krishnan,33.0,Female,Ab+,Neurology,Dr. Vignesh Kumar,09-04-2025,18-04-2025,Migraine,Neurological Therapy,Semi Private,9.0,47766.0,Yes,Insurance,3.4,No,No
+P0310,Sathish Menon,37.0,Male,Ab-,General Medicine,Dr. Rahul Kumar,14-03-2025,21-03-2025,Diabetes,Medication,Semi Private,7.0,37354.0,No,Cash,2.8,No,Yes
+P0311,Nisha Reddy,59.0,Male,B-,General Medicine,Dr. Rahul Kumar,12-12-2025,04-11-2025,Infection,IV Therapy,Semi Private,1.0,10498.0,Yes,Insurance,4.5,No,No
+P0312,Anitha Kumar,47.0,Female,B-,Orthopedics,Dr. Ramesh Balan,21-10-2025,25-10-2025,Back Pain,Fracture Treatment,General Ward,4.0,23149.0,Yes,Insurance,4.9,No,Yes
+P0313,Vijay Singh,24.0,Female,A+,Gastroenterology,Dr. Manoj Iyer,24-09-2025,03-10-2025,Gastritis,Medication,ICU,9.0,126833.0,No,UPI,4.0,No,No
+P0314,Vignesh Reddy,21.0,Male,O+,Dermatology,Dr. Keerthana Raj,16-03-2025,26-03-2025,Psoriasis,Skin Therapy,Private,10.0,71262.0,Yes,UPI,4.5,No,No
+P0315,Anitha Balan,46.0,Male,O+,Dermatology,Dr. Swathi Nair,19-12-2025,23-12-2025,Psoriasis,Laser Treatment,General Ward,4.0,21689.0,Yes,Insurance,4.2,No,Yes
+P0316,Keerthana Nair,24.0,Male,B-,Neurology,Dr. Manoj Iyer,05-10-2025,06-10-2025,Gastritis,Diet Therapy,General Ward,1.0,14264.0,No,Cash,4.0,No,Yes
+P0317,Divya Raj,21.0,Female,B+,Cardiology,Dr. Suresh Iyer,06-08-2025,08-08-2025,Chest Pain,Cardiac Therapy,General Ward,2.0,29945.0,No,UPI,3.8,No,No
+P0318,Nisha Balan,46.0,Female,O+,General Medicine,Dr. Prakash Menon,16-01-2025,20-01-2025,Hypertension,Observation,Private,4.0,33516.0,Yes,Insurance,3.6,Yes,No
+P0319,Meena Singh,29.0,Female,B+,General Medicine,Dr. Prakash Menon,10-08-2025,13-08-2025,Fever,IV Therapy,General Ward,3.0,13878.0,No,UPI,4.4,No,Yes
+P0320,Deepa Reddy,50.0,Male,A+,Neurology,Dr. Vignesh Kumar,17-08-2025,24-08-2025,Stroke,Medication,Semi Private,7.0,40894.0,No,Cash,3.4,No,No
+P0321,Sathish Sharma,47.0,Male,A-,Pediatrics,Dr. Kavya Raj,01-10-2025,06-10-2025,Asthma,Medication,ICU,5.0,75963.0,No,Card,3.5,Yes,Yes
+P0322,Keerthana Krishnan,23.0,Female,B-,Gastroenterology,Dr. Shalini Devi,25-01-2025,28-01-2025,Liver Disorder,Medication,General Ward,3.0,22282.0,No,Card,3.9,No,Yes
+P0323,Ajay Balan,59.0,Female,Ab+,ENT,Dr. Sathish Kumar,22-02-2025,26-02-2025,Tonsillitis,Minor Surgery,General Ward,4.0,23781.0,Yes,Insurance,3.1,No,No
+P0324,Karthik Singh,47.0,Male,O-,Pediatrics,Dr. Kavya Raj,08-01-2025,16-01-2025,Respiratory Infection,Observation,General Ward,8.0,26419.0,Yes,Insurance,3.8,No,Yes
+P0325,Sathish Singh,47.0,Female,A+,Pediatrics,Dr. Kavya Raj,15-01-2025,22-01-2025,Asthma,Observation,Private,7.0,46313.0,Yes,Insurance,3.7,No,No
+P0326,Keerthana Krishnan,58.0,Female,B-,Dermatology,Dr. Keerthana Raj,06-10-2025,19-10-2025,Acne,Minor Procedure,Private,13.0,86642.0,Yes,Insurance,4.1,No,Yes
+P0327,Nisha Singh,44.0,Female,O+,ENT,Dr. Harini Nair,09-06-2025,13-06-2025,Hypertension,Medication,Semi Private,4.0,31271.0,Yes,Insurance,4.1,No,Yes
+P0328,Ramesh Krishnan,47.0,Male,B-,Cardiology,Dr. Vignesh Kumar,28-10-2025,01-11-2025,Epilepsy,Neurological Therapy,ICU,4.0,63494.0,Yes,Insurance,4.4,No,No
+P0329,Dinesh Menon,47.0,Female,B-,Dermatology,Dr. Pooja Sharma,04-08-2025,07-08-2025,Skin Allergy,Skin Therapy,Semi Private,3.0,21969.0,Yes,Insurance,3.6,No,Yes
+P0330,Anitha Reddy,66.0,Female,Ab-,Dermatology,Dr. Keerthana Raj,06-02-2025,12-02-2025,Psoriasis,Minor Procedure,General Ward,6.0,21902.0,Yes,Insurance,4.8,No,No
+P0331,Dinesh Das,72.0,Male,O+,Dermatology,Dr. Keerthana Raj,02-08-2025,11-08-2025,Skin Allergy,Skin Therapy,ICU,9.0,119540.0,Yes,Insurance,4.0,No,Yes
+P0332,Keerthana Sharma,47.0,Male,Ab-,Pediatrics,Dr. Nisha Menon,13-12-2025,17-12-2025,Fever,Medication,General Ward,4.0,17730.0,Yes,Insurance,3.2,No,No
+P0333,Keerthana Krishnan,57.0,Female,B+,Neurology,Dr. Karthik Raj,22-04-2025,23-04-2025,Migraine,Physiotherapy,Semi Private,1.0,24972.0,Yes,Insurance,3.3,Yes,No
+P0334,Pooja Singh,57.0,Male,B+,Neurology,Dr. Meena Devi,16-09-2025,18-09-2025,Migraine,MRI Monitoring,Semi Private,2.0,27050.0,No,Cash,4.4,No,No
+P0335,Arun Raj,33.0,Male,B-,Dermatology,Dr. Pooja Sharma,14-08-2025,19-08-2025,Eczema,Laser Treatment,Private,5.0,29263.0,No,UPI,3.4,No,No
+P0336,Pooja Raj,47.0,Female,B-,Pediatrics,Dr. Kavya Raj,18-12-2025,26-12-2025,Fever,IV Therapy,General Ward,8.0,21401.0,No,Cash,3.1,Yes,No
+P0337,Ramesh Raj,26.0,Male,A-,Cardiology,Dr. Arun Kumar,03-06-2025,13-06-2025,Hypertension,Cardiac Therapy,General Ward,10.0,44778.0,No,Insurance,4.7,No,No
+P0338,Sathish Devi,25.0,Male,Ab+,Gastroenterology,Dr. Vijay Kumar,08-03-2025,09-03-2025,Gastritis,Diet Therapy,General Ward,1.0,17416.0,Yes,Insurance,4.9,No,No
+P0339,Ajay Iyer,69.0,Male,B-,Neurology,Dr. Karthik Raj,18-07-2025,20-07-2025,Epilepsy,Physiotherapy,Semi Private,2.0,999999.0,No,UPI,3.8,No,Yes
+P0340,Karthik Raj,47.0,Male,Ab-,Pediatrics,Dr. Kavya Raj,02-06-2025,08-06-2025,Respiratory Infection,Nebulization,Semi Private,6.0,26329.0,No,UPI,3.4,No,Yes
+P0341,Ajay Nair,79.0,Female,O+,Gastroenterology,Dr. Vijay Kumar,24-05-2025,31-05-2025,Liver Disorder,Medication,Private,7.0,53812.0,Yes,Insurance,3.6,Yes,No
+P0342,Manoj Reddy,68.0,Male,B-,ENT,Dr. Harini Nair,13-03-2025,14-03-2025,Hearing Problem,Medication,Semi Private,1.0,17438.0,No,UPI,4.3,No,Yes
+P0343,Karthik Das,46.0,Female,Ab+,Neurology,Dr. Keerthana Raj,06-05-2025,09-05-2025,Acne,Laser Treatment,Semi Private,3.0,25670.0,Yes,Insurance,3.7,Yes,No
+P0344,Manoj Kumar,76.0,Male,O+,Gastroenterology,Dr. Vijay Kumar,24-11-2025,02-12-2025,Food Poisoning,IV Therapy,General Ward,8.0,29263.0,No,Cash,3.5,No,Yes
+P0345,Vijay Kumar,24.0,Female,O+,ENT,Dr. Dinesh Raj,10-10-2025,21-10-2025,Sinusitis,ENT Therapy,General Ward,11.0,36458.0,Yes,Insurance,4.3,No,No
+P0346,Nisha Kumar,47.0,Female,O-,Pediatrics,Dr. Nisha Menon,12-08-2025,22-08-2025,Asthma,Nebulization,ICU,10.0,134802.0,No,UPI,3.7,No,No
+P0347,Shalini Singh,44.0,Female,Ab+,Gastroenterology,Dr. Vijay Kumar,28-09-2025,06-10-2025,Food Poisoning,Medication,General Ward,8.0,29062.0,Yes,Insurance,3.9,No,Yes
+P0348,Priya Kumar,48.0,Male,Ab-,Neurology,Dr. Manoj Iyer,11-07-2025,15-07-2025,Food Poisoning,Endoscopy,General Ward,4.0,22687.0,Yes,Insurance,4.2,No,No
+P0349,Vijay Reddy,47.0,Female,Ab-,Pediatrics,Dr. Deepa Krishnan,29-09-2025,07-10-2025,Fever,IV Therapy,Private,8.0,59130.0,Yes,Insurance,4.6,No,Yes
+P0350,Vignesh Das,33.0,Female,Ab-,ENT,Dr. Harini Nair,03-11-2025,04-11-2025,Ear Infection,Minor Surgery,General Ward,1.0,16152.0,No,Card,3.4,No,Yes
+P0351,Arun Menon,35.0,Female,A+,Dermatology,Dr. Pooja Sharma,23-11-2025,03-12-2025,Psoriasis,Minor Procedure,Semi Private,10.0,37715.0,Yes,Insurance,3.9,No,Yes
+P0352,Rahul Balan,73.0,Male,O+,Gastroenterology,Dr. Vijay Kumar,23-04-2025,26-04-2025,Liver Disorder,Endoscopy,Private,3.0,30520.0,No,UPI,4.0,Yes,No
+P0353,Prakash Sharma,47.0,Female,B+,Neurology,Dr. Karthik Raj,19-11-2025,26-11-2025,Migraine,Physiotherapy,General Ward,7.0,35542.0,No,Card,4.3,No,Yes
+P0354,Meena Kumar,59.0,Female,A+,General Medicine,Dr. Prakash Menon,03-07-2025,10-07-2025,Hypertension,General Treatment,General Ward,7.0,25703.0,Yes,Insurance,4.2,Yes,Yes
+P0355,Priya Kumar,74.0,Male,Ab-,Gastroenterology,Dr. Vijay Kumar,20-07-2025,15-11-2025,Liver Disorder,Endoscopy,General Ward,3.0,20005.0,No,Card,2.4,No,No
+P0356,Keerthana Kumar,73.0,Female,Ab+,Cardiology,Dr. Arun Kumar,05-10-2025,11-10-2025,Hypertension,Medication,General Ward,6.0,37907.0,Yes,Insurance,3.9,No,No
+P0357,Deepa Raj,47.0,Female,Ab+,Cardiology,Dr. Deepa Krishnan,20-07-2025,06-03-2025,Asthma,Observation,General Ward,4.0,13785.0,Yes,Insurance,4.0,No,No
+P0358,Harini Iyer,67.0,Female,O+,Neurology,Dr. Vignesh Kumar,05-05-2025,08-05-2025,Stroke,Physiotherapy,Private,3.0,29263.0,No,Cash,4.2,No,Yes
+P0359,Priya Reddy,24.0,Female,A+,Neurology,Dr. Vignesh Kumar,01-12-2025,12-12-2025,Stroke,Neurological Therapy,General Ward,11.0,41918.0,No,UPI,4.4,No,No
+P0360,Keerthana Das,47.0,Male,A+,Orthopedics,Dr. Ramesh Balan,09-12-2025,14-12-2025,Fracture,Physiotherapy,Semi Private,5.0,31728.0,No,UPI,3.9,No,No
+P0361,Shalini Krishnan,47.0,Female,O+,Neurology,Dr. Meena Devi,16-08-2025,20-08-2025,Hypertension,MRI Monitoring,General Ward,4.0,32513.0,No,UPI,4.7,No,No
+P0362,Dinesh Menon,47.0,Female,O-,Neurology,Dr. Vignesh Kumar,10-05-2025,13-05-2025,Stroke,Medication,Semi Private,3.0,34852.0,Yes,Insurance,3.0,No,No
+P0363,Vignesh Sharma,60.0,Male,A+,ENT,Dr. Dinesh Raj,27-04-2025,30-04-2025,Ear Infection,Observation,General Ward,3.0,17604.0,Yes,Insurance,3.2,No,No
+P0364,Vignesh Kumar,47.0,Male,O+,Pediatrics,Dr. Deepa Krishnan,31-12-2025,09-01-2026,Respiratory Infection,Observation,Private,9.0,57648.0,No,Cash,4.0,No,No
+P0365,Swathi Menon,26.0,Male,A-,General Medicine,Dr. Prakash Menon,24-07-2025,26-07-2025,Infection,Observation,Semi Private,2.0,14396.0,No,Card,3.9,No,No
+P0366,Karthik Singh,50.0,Female,B-,General Medicine,Dr. Prakash Menon,20-07-2025,24-03-2025,Fever,IV Therapy,General Ward,7.0,25594.0,No,Card,4.6,No,No
+P0367,Rahul Menon,78.0,Female,O-,ENT,Dr. Sathish Kumar,06-11-2025,09-11-2025,Sinusitis,Minor Surgery,General Ward,3.0,20333.0,Yes,Insurance,5.0,No,Yes
+P0368,Sathish Raj,50.0,Female,B-,Gastroenterology,Dr. Vijay Kumar,26-01-2025,27-01-2025,Gastritis,Diet Therapy,General Ward,1.0,15810.0,No,Cash,2.6,No,No
+P0369,Prakash Menon,43.0,Female,B-,Dermatology,Dr. Pooja Sharma,29-05-2025,31-05-2025,Eczema,Skin Therapy,General Ward,2.0,10701.0,Yes,Insurance,3.0,No,No
+P0370,Divya Nair,33.0,Female,B-,ENT,Dr. Sathish Kumar,05-12-2025,08-12-2025,Ear Infection,Minor Surgery,Semi Private,3.0,22353.0,Yes,Insurance,3.1,No,Yes
+P0371,Karthik Balan,65.0,Male,O+,ENT,Dr. Dinesh Raj,19-01-2025,22-01-2025,Sinusitis,Medication,Private,3.0,30500.0,No,UPI,3.1,No,Yes
+P0372,Karthik Reddy,43.0,Female,O+,Cardiology,Dr. Priya Raj,24-11-2025,27-11-2025,Heart Disease,Cardiac Therapy,Semi Private,3.0,36607.0,No,Cash,4.7,No,Yes
+P0373,Divya Raj,47.0,Male,B+,Neurology,Dr. Meena Devi,10-01-2025,16-01-2025,Neuropathy,Medication,General Ward,6.0,26682.0,Yes,Insurance,4.8,No,Yes
+P0374,Divya Balan,47.0,Male,B-,Pediatrics,Dr. Kavya Raj,20-05-2025,24-05-2025,Asthma,Observation,Semi Private,4.0,20474.0,Yes,UPI,4.8,No,No
+P0375,Harini Menon,38.0,Female,B-,Neurology,Dr. Meena Devi,24-08-2025,27-08-2025,Epilepsy,Physiotherapy,ICU,3.0,57998.0,Yes,Insurance,4.9,Yes,No
+P0376,  Rahul Singh ,55.0,Female,Ab-,Neurology,Dr. Meena Devi,20-02-2025,21-02-2025,Neuropathy,MRI Monitoring,ICU,1.0,32367.0,Yes,Insurance,4.0,Yes,No
+P0377,Vijay Raj,59.0,Female,O+,ENT,Dr. Dinesh Raj,10-10-2025,12-10-2025,Sinusitis,Minor Surgery,Private,2.0,26716.0,Yes,Insurance,3.9,No,No
+P0378,Pooja Kumar,47.0,Male,A-,Pediatrics,Dr. Deepa Krishnan,11-09-2025,13-09-2025,Asthma,Observation,General Ward,2.0,9908.0,Yes,Insurance,3.6,No,Yes
+P0379,Keerthana Krishnan,47.0,Female,Ab+,Cardiology,Dr. Priya Raj,11-02-2025,16-02-2025,Heart Disease,Angioplasty,Semi Private,5.0,44145.0,No,Card,3.3,No,No
+P0380,Suresh Nair,75.0,Female,A-,Neurology,Dr. Vignesh Kumar,07-09-2025,13-09-2025,Migraine,Neurological Therapy,ICU,6.0,88131.0,No,Cash,3.9,No,No
+P0381,Vignesh Iyer,40.0,Female,A-,ENT,Dr. Sathish Kumar,11-09-2025,18-09-2025,Ear Infection,Observation,Semi Private,7.0,32944.0,Yes,Insurance,4.5,No,No
+P0382,Suresh Reddy,32.0,Male,Ab+,ENT,Dr. Dinesh Raj,28-08-2025,29-08-2025,Sinusitis,Medication,General Ward,1.0,15454.0,No,Cash,3.4,No,Yes
+P0383,Pooja Nair,33.0,Female,O-,Gastroenterology,Dr. Shalini Devi,08-07-2025,21-07-2025,Gastritis,Endoscopy,Private,13.0,89464.0,Yes,Insurance,2.1,No,No
+P0384,Shalini Krishnan,75.0,Female,Ab+,Neurology,Dr. Vignesh Kumar,20-07-2025,20-03-2025,Stroke,Neurological Therapy,Semi Private,1.0,19404.0,Yes,Insurance,4.1,No,No
+P0385,Vignesh Iyer,47.0,Female,B+,Pediatrics,Dr. Nisha Menon,04-01-2025,14-01-2025,Asthma,IV Therapy,General Ward,10.0,31448.0,Yes,Insurance,4.5,No,Yes
+P0386,Priya Balan,21.0,Male,O+,Dermatology,Dr. Keerthana Raj,15-12-2025,20-12-2025,Skin Allergy,Minor Procedure,Semi Private,5.0,32421.0,No,Cash,3.0,No,No
+P0387,Dinesh Raj,59.0,Male,O-,Dermatology,Dr. Pooja Sharma,03-09-2025,04-09-2025,Eczema,Skin Therapy,Semi Private,4.0,15137.0,No,Cash,4.5,No,No
+P0388,Manoj Das,68.0,Female,O-,ENT,Dr. Harini Nair,26-10-2025,30-10-2025,Hearing Problem,Minor Surgery,ICU,4.0,62117.0,No,UPI,2.8,No,No
+P0389,Ramesh Reddy,66.0,Female,O-,Dermatology,Dr. Swathi Nair,17-03-2025,21-03-2025,Skin Allergy,Skin Therapy,Semi Private,4.0,25511.0,Yes,Insurance,4.2,No,No
+P0390,Manoj Menon,47.0,Male,A+,Orthopedics,Dr. Ramesh Balan,14-02-2025,16-02-2025,Joint Pain,Medication,General Ward,2.0,17467.0,No,UPI,4.9,No,No
+P0391,Vijay Singh,59.0,Male,B-,Neurology,Dr. Karthik Raj,24-10-2025,26-10-2025,Epilepsy,Physiotherapy,Private,2.0,32537.0,Yes,Insurance,5.0,No,Yes
+P0392,Ajay Sharma,34.0,Female,A+,Cardiology,Dr. Arun Kumar,10-03-2025,11-03-2025,Heart Disease,Cardiac Therapy,General Ward,1.0,24316.0,No,UPI,3.3,No,No
+P0393,Shalini Reddy,53.0,Female,B-,Cardiology,Dr. Priya Raj,18-04-2025,21-04-2025,Heart Disease,Medication,Private,3.0,40492.0,No,UPI,4.5,No,Yes
+P0394,Kavya Iyer,64.0,Male,A+,Neurology,Dr. Vignesh Kumar,17-07-2025,28-07-2025,Migraine,Neurological Therapy,Private,11.0,83532.0,No,UPI,4.1,No,Yes
+P0395,Dinesh Krishnan,69.0,Male,Ab+,General Medicine,Dr. Anitha Devi,21-06-2025,22-06-2025,Infection,IV Therapy,General Ward,1.0,16918.0,No,Card,4.6,No,No
+P0396,Divya Devi,59.0,Male,Ab+,Neurology,Dr. Vignesh Kumar,11-11-2025,15-11-2025,Stroke,Medication,General Ward,4.0,30649.0,Yes,Insurance,2.6,No,Yes
+P0397,Keerthana Balan,53.0,Male,B+,Gastroenterology,Dr. Vijay Kumar,16-07-2025,17-07-2025,Gastritis,Endoscopy,Private,1.0,27024.0,Yes,Insurance,5.0,No,Yes
+P0398,Karthik Nair,18.0,Male,B+,Cardiology,Dr. Arun Kumar,01-12-2025,02-12-2025,Arrhythmia,Cardiac Therapy,General Ward,1.0,30939.0,Yes,Insurance,4.3,No,Yes
+P0399,Prakash Raj,27.0,Female,O-,Cardiology,Dr. Priya Raj,16-02-2025,17-02-2025,Chest Pain,Angioplasty,General Ward,1.0,23739.0,Yes,Insurance,4.7,No,No
+P0400,Swathi Menon,55.0,Male,B-,General Medicine,Dr. Rahul Kumar,20-07-2025,22-07-2025,Hypertension,General Treatment,ICU,2.0,33594.0,Yes,Insurance,5.0,No,No
+P0401,Rahul Krishnan,39.0,Male,B-,Orthopedics,Dr. Divya Nair,08-06-2025,10-06-2025,Fracture,Fracture Treatment,Private,2.0,34917.0,Yes,Insurance,3.8,No,No
+P0402,Vignesh Devi,35.0,Female,B+,General Medicine,Dr. Rahul Kumar,15-03-2025,19-03-2025,Infection,IV Therapy,Semi Private,4.0,21864.0,Yes,Insurance,4.2,Yes,No
+P0403,Ajay Devi,47.0,Male,B-,Pediatrics,Dr. Kavya Raj,13-02-2025,19-02-2025,Dehydration,Medication,Private,6.0,47177.0,Yes,Insurance,4.1,No,No
+P0404,Kavya Krishnan,27.0,Male,Ab+,General Medicine,Dr. Rahul Kumar,19-08-2025,25-08-2025,Diabetes,General Treatment,General Ward,6.0,25690.0,No,Insurance,4.3,No,No
+P0405,Manoj Sharma,20.0,Female,Ab-,Orthopedics,Dr. Ramesh Balan,20-11-2025,22-11-2025,Back Pain,Physiotherapy,General Ward,2.0,25101.0,Yes,Insurance,3.6,No,No
+P0406,Sathish Reddy,19.0,Male,B+,Orthopedics,Dr. Divya Nair,06-09-2025,13-09-2025,Joint Pain,Fracture Treatment,General Ward,7.0,36313.0,Yes,Insurance,2.8,No,No
+P0407,Manoj Devi,47.0,Male,O-,Pediatrics,Dr. Kavya Raj,09-11-2025,14-11-2025,Asthma,IV Therapy,Semi Private,5.0,31335.0,Yes,Insurance,4.0,No,Yes
+P0408,Anitha Krishnan,51.0,Male,O-,Neurology,Dr. Karthik Raj,08-03-2025,09-03-2025,Stroke,Physiotherapy,General Ward,1.0,21734.0,Yes,Insurance,2.5,No,No
+P0409,Ramesh Menon,34.0,Male,Ab+,Gastroenterology,Dr. Manoj Iyer,14-02-2025,22-02-2025,Gastritis,Diet Therapy,Private,8.0,60210.0,No,Card,4.4,No,No
+P0410,Kavya Balan,47.0,Male,O-,Pediatrics,Dr. Deepa Krishnan,01-10-2025,06-10-2025,Respiratory Infection,Medication,General Ward,5.0,22645.0,No,Insurance,4.5,Yes,No
+P0411,Manoj Das,45.0,Female,O-,Neurology,Dr. Vignesh Kumar,02-01-2025,06-01-2025,Hypertension,Neurological Therapy,Semi Private,4.0,33756.0,No,Cash,4.3,No,No
+P0412,  Ajay Reddy ,70.0,Female,Ab-,Gastroenterology,Dr. Shalini Devi,12-08-2025,18-08-2025,Food Poisoning,Diet Therapy,General Ward,6.0,23728.0,No,Card,3.6,No,No
+P0413,Karthik Devi,75.0,Male,B-,Dermatology,Dr. Pooja Sharma,22-07-2025,28-07-2025,Skin Allergy,Medication,Private,100.0,45378.0,Yes,Insurance,4.6,No,No
+P0414,Priya Raj,68.0,Female,Ab-,Gastroenterology,Dr. Manoj Iyer,29-07-2025,30-07-2025,Liver Disorder,Endoscopy,Semi Private,1.0,15169.0,Yes,Insurance,4.3,No,No
+P0415,Deepa Balan,47.0,Female,Ab+,Pediatrics,Dr. Rahul Kumar,22-11-2025,01-12-2025,Respiratory Infection,IV Therapy,ICU,9.0,123197.0,No,Cash,4.9,Yes,Yes
+P0416,Harini Das,69.0,Female,A-,Orthopedics,Dr. Divya Nair,16-02-2025,25-02-2025,Arthritis,Medication,Semi Private,9.0,52786.0,Yes,Insurance,4.7,Yes,No
+P0417,Keerthana Krishnan,25.0,Male,O-,ENT,Dr. Dinesh Raj,07-04-2025,11-04-2025,Tonsillitis,Minor Surgery,General Ward,4.0,23091.0,No,UPI,5.0,No,No
+P0418,Nisha Nair,53.0,Female,O-,ENT,Dr. Harini Nair,25-03-2025,27-03-2025,Tonsillitis,Minor Surgery,Semi Private,2.0,14738.0,No,Cash,4.2,No,No
+P0419,Swathi Raj,46.0,Male,A+,Cardiology,Dr. Arun Kumar,01-11-2025,06-11-2025,Chest Pain,Medication,Semi Private,5.0,35726.0,No,Card,3.6,Yes,No
+P0420,Keerthana Reddy,71.0,Female,B-,Cardiology,Dr. Priya Raj,05-05-2025,12-05-2025,Hypertension,Cardiac Therapy,Semi Private,4.0,41964.0,No,Card,3.1,No,Yes
+P0421,Shalini Nair,47.0,Female,B-,Cardiology,Dr. Arun Kumar,28-07-2025,31-07-2025,Heart Disease,Medication,General Ward,3.0,27949.0,Yes,Insurance,4.5,No,Yes
+P0422,Ramesh Krishnan,41.0,Female,B-,Orthopedics,Dr. Ramesh Balan,28-01-2025,30-01-2025,Back Pain,Physiotherapy,General Ward,2.0,20242.0,No,Card,4.5,No,No
+P0423,Rahul Kumar,30.0,Female,A+,Orthopedics,Dr. Ramesh Balan,16-03-2025,18-03-2025,Joint Pain,Medication,General Ward,2.0,27017.0,Yes,Insurance,4.2,No,No
+P0424,Shalini Devi,21.0,Female,Ab-,ENT,Dr. Harini Nair,03-10-2025,06-10-2025,Hearing Problem,Medication,ICU,3.0,48647.0,Yes,Insurance,3.9,No,No
+P0425,Harini Raj,47.0,Male,B-,Orthopedics,Dr. Ajay Sharma,21-11-2025,22-11-2025,Back Pain,Medication,General Ward,1.0,15418.0,No,Cash,4.0,Yes,Yes
+P0426,Pooja Das,77.0,Male,B+,Cardiology,Dr. Priya Raj,08-06-2025,09-06-2025,Chest Pain,Angioplasty,Semi Private,1.0,28904.0,Yes,Insurance,3.1,No,No
+P0427,Kavya Das,58.0,Male,Ab+,Orthopedics,Dr. Ramesh Balan,30-07-2025,07-08-2025,Arthritis,Surgery,Private,8.0,62507.0,No,UPI,3.3,No,No
+P0428,Anitha Singh,26.0,Female,Ab+,Neurology,Dr. Vignesh Kumar,03-03-2025,01-03-2025,Migraine,MRI Monitoring,Semi Private,9.0,46309.0,Yes,Insurance,4.1,No,Yes
+P0429,Arun Menon,31.0,Female,Ab+,General Medicine,Dr. Anitha Devi,24-04-2025,29-04-2025,Hypertension,Medication,General Ward,5.0,25644.0,Yes,Insurance,3.9,No,No
+P0430,Vignesh Balan,49.0,Female,Ab-,Cardiology,Dr. Suresh Iyer,16-10-2025,18-10-2025,Heart Disease,Cardiac Therapy,General Ward,2.0,24851.0,No,Card,3.4,No,Yes
+P0431,  Priya Raj ,52.0,Male,Ab-,General Medicine,Dr. Prakash Menon,07-11-2025,08-11-2025,Fever,Observation,General Ward,1.0,16725.0,Yes,Insurance,4.2,No,No
+P0432,Karthik Balan,51.0,Male,Ab-,Orthopedics,Dr. Ramesh Balan,13-10-2025,14-10-2025,Arthritis,Medication,General Ward,1.0,22534.0,Yes,Insurance,3.3,No,No
+P0433,Keerthana Das,47.0,Male,Ab+,General Medicine,Dr. Anitha Devi,11-01-2025,16-01-2025,Hypertension,Observation,Semi Private,5.0,31788.0,No,Card,3.0,No,No
+P0434,Meena Balan,42.0,Male,Ab-,General Medicine,Dr. Rahul Kumar,02-10-2025,05-10-2025,Hypertension,Observation,Private,3.0,27923.0,No,UPI,4.0,Yes,No
+P0435,Kavya Menon,50.0,Male,Ab+,Cardiology,Dr. Arun Kumar,17-08-2025,23-08-2025,Heart Disease,Medication,General Ward,6.0,34686.0,Yes,Insurance,3.6,No,No
+P0436,Rahul Kumar,40.0,Female,O-,Cardiology,Dr. Arun Kumar,19-12-2025,23-12-2025,Hypertension,Angioplasty,General Ward,4.0,35189.0,No,Cash,3.2,No,No
+P0437,Anitha Nair,55.0,Female,Ab-,Orthopedics,Dr. Meena Devi,16-04-2025,22-04-2025,Epilepsy,MRI Monitoring,Semi Private,6.0,35295.0,No,Cash,2.8,No,No
+P0438,Dinesh Das,65.0,Male,O+,Gastroenterology,Dr. Vijay Kumar,14-04-2025,15-04-2025,Gastritis,Medication,Semi Private,1.0,20576.0,Yes,Insurance,3.8,No,No
+P0439,Deepa Iyer,20.0,Male,B+,Orthopedics,Dr. Ramesh Balan,30-04-2025,08-05-2025,Arthritis,Fracture Treatment,General Ward,8.0,36295.0,No,UPI,2.7,No,No
+P0440,Nisha Singh,47.0,Male,Ab-,Gastroenterology,Dr. Shalini Devi,29-07-2025,30-07-2025,Liver Disorder,Endoscopy,Semi Private,4.0,15516.0,Yes,UPI,3.5,No,Yes
+P0441,Karthik Balan,32.0,Female,O-,Dermatology,Dr. Swathi Nair,12-11-2025,14-11-2025,Psoriasis,Medication,ICU,2.0,35339.0,No,UPI,4.7,Yes,No
+P0442,Anitha Reddy,26.0,Female,B-,Neurology,Dr. Karthik Raj,21-10-2025,28-10-2025,Migraine,Neurological Therapy,Private,7.0,54928.0,No,UPI,4.4,No,No
+P0443,Arun Reddy,47.0,Female,Ab-,Orthopedics,Dr. Ramesh Balan,05-09-2025,09-09-2025,Back Pain,Fracture Treatment,ICU,4.0,71308.0,Yes,Insurance,4.1,No,No
+P0444,Pooja Iyer,19.0,Male,B-,Cardiology,Dr. Suresh Iyer,15-04-2025,16-04-2025,Hypertension,Angioplasty,General Ward,1.0,24996.0,No,Cash,3.1,No,Yes
+P0445,Nisha Krishnan,49.0,Male,B+,Cardiology,Dr. Suresh Iyer,26-01-2025,30-01-2025,Arrhythmia,Angioplasty,General Ward,4.0,37176.0,Yes,Insurance,3.7,Yes,No
+P0446,  Pooja Menon ,47.0,Female,A-,Pediatrics,Dr. Kavya Raj,05-11-2025,15-11-2025,Fever,Nebulization,General Ward,10.0,25781.0,No,Card,4.3,No,Yes
+P0447,Prakash Iyer,64.0,Female,O-,Neurology,Dr. Dinesh Raj,21-06-2025,22-06-2025,Ear Infection,Observation,Private,1.0,23929.0,No,UPI,4.2,No,No
+P0448,Ramesh Kumar,77.0,Male,A+,General Medicine,Dr. Prakash Menon,07-11-2025,10-11-2025,Diabetes,IV Therapy,General Ward,3.0,18060.0,No,Card,4.4,No,No
+P0449,Keerthana Krishnan,37.0,Male,O-,Dermatology,Dr. Swathi Nair,07-06-2025,15-06-2025,Eczema,Medication,Semi Private,8.0,37832.0,No,Card,4.2,No,No
+P0450,Nisha Balan,51.0,Male,Ab+,ENT,Dr. Harini Nair,25-03-2025,29-03-2025,Tonsillitis,Medication,ICU,4.0,59939.0,No,UPI,4.2,No,No
+P0451,Shalini Das,33.0,Female,B-,Neurology,Dr. Meena Devi,12-01-2025,14-01-2025,Migraine,MRI Monitoring,Private,2.0,34106.0,Yes,Insurance,3.4,No,Yes
+P0452,Swathi Balan,72.0,Female,O+,General Medicine,Dr. Anitha Devi,14-09-2025,25-09-2025,Infection,Observation,ICU,11.0,149702.0,Yes,Insurance,3.4,No,Yes
+P0453,Keerthana Raj,47.0,Male,A-,Pediatrics,Dr. Kavya Raj,12-08-2025,14-08-2025,Dehydration,IV Therapy,Semi Private,2.0,15913.0,Yes,Insurance,4.5,No,Yes
+P0454,Divya Reddy,47.0,Male,B-,Neurology,Dr. Vignesh Kumar,22-02-2025,23-02-2025,Epilepsy,Neurological Therapy,General Ward,1.0,20670.0,No,UPI,3.9,No,No
+P0455,Shalini Raj,43.0,Male,O-,Neurology,Dr. Karthik Raj,30-12-2025,31-12-2025,Epilepsy,Medication,General Ward,1.0,25205.0,No,UPI,4.1,No,Yes
+P0456,Sathish Reddy,26.0,Male,Ab+,Dermatology,Dr. Keerthana Raj,10-07-2025,15-07-2025,Acne,Skin Therapy,General Ward,5.0,23626.0,Yes,Insurance,4.9,Yes,No
+P0457,Vijay Balan,67.0,Female,A+,General Medicine,Dr. Rahul Kumar,31-05-2025,03-06-2025,Diabetes,General Treatment,General Ward,3.0,21437.0,Yes,Insurance,4.2,No,Yes
+P0458,Rahul Menon,47.0,Female,B-,Dermatology,Dr. Keerthana Raj,10-04-2025,14-04-2025,Skin Allergy,Minor Procedure,General Ward,4.0,14122.0,No,Cash,3.0,No,Yes
+P0459,Kavya Devi,44.0,Female,Ab+,Dermatology,Dr. Keerthana Raj,04-12-2025,05-12-2025,Psoriasis,Skin Therapy,General Ward,1.0,17385.0,No,UPI,4.0,No,No
+P0460,Suresh Kumar,25.0,Male,A-,ENT,Dr. Harini Nair,16-04-2025,25-04-2025,Hearing Problem,ENT Therapy,Private,9.0,65067.0,Yes,Insurance,4.7,No,Yes
+P0461,Rahul Nair,47.0,Female,Ab+,Pediatrics,Dr. Nisha Menon,07-01-2025,13-01-2025,Dehydration,IV Therapy,General Ward,6.0,19323.0,Yes,Insurance,3.8,No,No
+P0462,Priya Balan,28.0,Male,A-,Orthopedics,Dr. Ramesh Balan,26-12-2025,03-01-2026,Joint Pain,Medication,Private,8.0,58724.0,Yes,Insurance,3.6,No,Yes
+P0463,Divya Devi,42.0,Male,O+,Neurology,Dr. Karthik Raj,19-03-2025,20-03-2025,Epilepsy,Neurological Therapy,Semi Private,1.0,20366.0,Yes,Insurance,3.4,No,No
+Unknown,Anitha Das,47.0,Male,O-,Orthopedics,Dr. Ramesh Balan,22-01-2025,23-01-2025,Back Pain,Physiotherapy,ICU,1.0,30578.0,No,Card,4.0,No,No
+P0465,Meena Devi,47.0,Female,B+,Pediatrics,Dr. Kavya Raj,21-07-2025,26-07-2025,Respiratory Infection,Observation,Private,5.0,39488.0,No,UPI,3.7,No,No
+P0466,Rahul Iyer,47.0,Female,B-,Pediatrics,Dr. Deepa Krishnan,21-09-2025,03-10-2025,Fever,IV Therapy,Semi Private,12.0,50919.0,No,Card,4.3,No,Yes
+P0467,Meena Raj,63.0,Female,O+,ENT,Dr. Sathish Kumar,05-10-2025,12-10-2025,Sinusitis,Medication,Semi Private,7.0,32622.0,No,Card,4.1,No,No
+P0468,Suresh Balan,26.0,Female,O-,ENT,Dr. Sathish Kumar,16-10-2025,26-10-2025,Sinusitis,Medication,Private,10.0,62904.0,Yes,Insurance,5.0,No,No
+P0469,Rahul Iyer,25.0,Female,Ab-,Dermatology,Dr. Pooja Sharma,10-01-2025,15-01-2025,Psoriasis,Minor Procedure,General Ward,5.0,19502.0,Yes,Insurance,4.2,No,No
+P0470,Harini Das,47.0,Female,A+,Pediatrics,Dr. Deepa Krishnan,18-10-2025,23-10-2025,Fever,Observation,Private,5.0,36806.0,No,UPI,5.0,Yes,No
+P0471,Divya Krishnan,72.0,Female,B-,ENT,Dr. Dinesh Raj,19-08-2025,29-08-2025,Ear Infection,Medication,ICU,10.0,137971.0,No,Card,4.1,No,Yes
+P0472,Nisha Das,44.0,Male,Ab+,General Medicine,Dr. Rahul Kumar,20-07-2025,25-05-2025,Diabetes,Medication,Semi Private,2.0,15136.0,Yes,Insurance,4.3,No,No
+P0473,Manoj Reddy,71.0,Male,O+,Orthopedics,Dr. Divya Nair,21-05-2025,25-05-2025,Arthritis,Physiotherapy,General Ward,4.0,28490.0,No,UPI,4.7,No,No
+P0474,Kavya Kumar,59.0,Female,B+,Cardiology,Dr. Priya Raj,23-07-2025,25-07-2025,Hypertension,Angioplasty,Semi Private,2.0,32295.0,Yes,Insurance,5.0,No,Yes
+P0475,Prakash Krishnan,25.0,Male,A-,Orthopedics,Dr. Ramesh Balan,15-06-2025,18-06-2025,Back Pain,Physiotherapy,General Ward,3.0,25155.0,Yes,Insurance,4.7,No,Yes
+P0476,Suresh Raj,60.0,Female,O-,General Medicine,Dr. Prakash Menon,26-04-2025,27-04-2025,Hypertension,Observation,General Ward,1.0,13077.0,Yes,Insurance,3.7,No,No
+P0477,Nisha Nair,27.0,Female,Ab-,Orthopedics,Dr. Ajay Sharma,03-07-2025,07-07-2025,Joint Pain,Medication,General Ward,4.0,20781.0,Yes,Insurance,3.3,No,Yes
+P0478,Harini Reddy,50.0,Female,O-,Neurology,Dr. Vignesh Kumar,14-10-2025,16-10-2025,Stroke,Medication,Semi Private,2.0,31881.0,No,Cash,4.1,No,Yes
+P0479,Prakash Sharma,51.0,Male,O+,General Medicine,Dr. Anitha Devi,23-04-2025,25-04-2025,Infection,Observation,Private,2.0,27018.0,Yes,Insurance,3.4,No,No
+P0480,Vijay Devi,51.0,Female,B+,Gastroenterology,Dr. Shalini Devi,23-12-2025,28-12-2025,Ulcer,Diet Therapy,Semi Private,5.0,31647.0,No,Card,4.1,No,No
+P0481,Divya Iyer,60.0,Male,B-,ENT,Dr. Sathish Kumar,22-10-2025,24-10-2025,Sinusitis,ENT Therapy,General Ward,4.0,21064.0,Yes,Insurance,3.0,No,No
+P0482,Manoj Reddy,41.0,Male,A-,Dermatology,Dr. Swathi Nair,20-07-2025,12-01-2025,Acne,Minor Procedure,Private,1.0,2500000.0,Yes,Cash,3.7,No,No
+P0483,Priya Reddy,48.0,Female,Ab+,Gastroenterology,Dr. Manoj Iyer,08-05-2025,13-05-2025,Gastritis,Diet Therapy,Private,5.0,48074.0,No,UPI,4.6,No,Yes
+P0484,Rahul Devi,47.0,Female,B+,ENT,Dr. Dinesh Raj,24-10-2025,02-11-2025,Tonsillitis,ENT Therapy,ICU,9.0,116072.0,Yes,Cash,5.0,No,No
+P0485,Sathish Kumar,74.0,Male,Ab+,Dermatology,Dr. Swathi Nair,14-06-2025,17-06-2025,Psoriasis,Medication,Semi Private,3.0,18908.0,Yes,Insurance,3.1,Yes,No
+P0486,Priya Reddy,48.0,Female,Ab+,Dermatology,Dr. Keerthana Raj,03-04-2025,05-04-2025,Psoriasis,Medication,Private,2.0,23300.0,Yes,UPI,4.0,No,No
+P0487,Pooja Menon,43.0,Female,O-,Cardiology,Dr. Suresh Iyer,16-06-2025,17-06-2025,Hypertension,ECG Monitoring,General Ward,1.0,29219.0,No,Card,4.3,No,No
+P0488,Shalini Devi,39.0,Male,B+,General Medicine,Dr. Rahul Kumar,15-02-2025,18-02-2025,Diabetes,Observation,Private,3.0,32280.0,No,Card,4.2,No,No
+P0489,Kavya Das,45.0,Female,Ab-,General Medicine,Dr. Rahul Kumar,21-06-2025,01-07-2025,Infection,IV Therapy,Semi Private,10.0,49416.0,Yes,Insurance,2.1,Yes,No
+P0490,Meena Devi,47.0,Female,O-,Pediatrics,Dr. Deepa Krishnan,17-11-2025,18-11-2025,Fever,Nebulization,Private,1.0,15171.0,No,UPI,5.0,No,No
+P0491,  Arun Raj ,63.0,Male,A-,General Medicine,Dr. Prakash Menon,05-02-2025,07-02-2025,Hypertension,IV Therapy,General Ward,2.0,13841.0,No,UPI,3.2,No,Yes
+P0492,Ramesh Sharma,19.0,Female,A-,General Medicine,Dr. Anitha Devi,18-08-2025,20-08-2025,Infection,Medication,Semi Private,2.0,14479.0,Yes,Insurance,3.8,No,Yes
+P0493,Priya Singh,19.0,Female,B+,Neurology,Dr. Meena Devi,26-12-2025,31-12-2025,Migraine,MRI Monitoring,Semi Private,5.0,33886.0,Yes,Insurance,3.7,No,No
+P0494,Sathish Singh,29.0,Female,O+,General Medicine,Dr. Rahul Kumar,05-10-2025,02-10-2025,Diabetes,General Treatment,Private,3.0,24364.0,No,Cash,3.4,No,Yes
+P0495,Harini Reddy,47.0,Female,B-,Neurology,Dr. Karthik Raj,02-12-2025,04-12-2025,Epilepsy,Neurological Therapy,Private,2.0,26946.0,Yes,Insurance,5.0,Yes,No
+P0496,Shalini Balan,64.0,Female,A-,Dermatology,Dr. Swathi Nair,11-02-2025,18-02-2025,Eczema,Minor Procedure,Semi Private,7.0,29339.0,No,Cash,5.0,No,No
+P0497,Vignesh Krishnan,39.0,Female,Ab-,Cardiology,Dr. Priya Raj,17-10-2025,25-10-2025,Arrhythmia,Angioplasty,Private,8.0,68684.0,Yes,Insurance,3.5,No,No
+P0498,Rahul Devi,65.0,Female,Ab+,Orthopedics,Dr. Ramesh Balan,06-05-2025,08-05-2025,Fracture,Fracture Treatment,Semi Private,2.0,20183.0,No,Cash,3.1,Yes,No
+P0499,Suresh Sharma,47.0,Male,A+,Pediatrics,Dr. Kavya Raj,07-03-2025,06-03-2025,Asthma,Medication,Semi Private,7.0,29505.0,Yes,UPI,4.0,No,No
+P0500,Vijay Krishnan,75.0,Female,O+,Cardiology,Dr. Suresh Iyer,20-07-2025,24-07-2025,Hypertension,Medication,Private,4.0,48804.0,No,Card,3.8,No,Yes
